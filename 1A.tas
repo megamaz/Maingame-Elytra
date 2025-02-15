@@ -1,0 +1,524 @@
+RecordCount:0
+
+AnalogMode,Ignore
+Set,CommunalHelper.DeployElytra,E
+
+console load 1
+   1
+
+#Start
+console,ch_toggle_elytra
+  88
+
+#lvl_1
+  14,R,Z
+   1,L,J
+   7,L,P
+   1,L,J
+  21,J,PE,F,90
+Repeat, 9
+   1,PE,F,55.3206
+   1,PE,F,90.0000
+EndRepeat
+   1,PE,F,55.3206
+   1,PE,F,53.5303
+   1,PE,F,51.6880
+   1,PE,F,49.7872
+   1,PE,F,47.8200
+   1,PE,F,45.7773
+   1,PE,F,43.6474
+   1,PE,F,41.4163
+   6,PE,F,90
+   5,R
+   1,R,J,G
+   1,K
+  40
+
+#lvl_2
+   1,PE,F,90
+   1,L,PE,F,55.2708
+   1,L,PE,F,53.4499
+   1,L,PE,F,51.5751
+   1,L,PE,F,49.6394
+   1,L,PE,F,47.6346
+   1,PE,F,45.5507
+   1,PE,F,43.3755
+   1,PE,F,41.0936
+   1,PE,F,38.6852
+   1,PE,F,36.1240
+   1,PE,F,33.3736
+  21,PE,F,90
+   4,PE,F,76.2
+  14,PE,F,90
+   1,R
+  12,R,K
+   1,J
+   1,K
+   9,L,K
+   2,K
+# any%-start
+  15,U,X
+   8,R,J
+   1,R,K,G
+   2,R,J,G
+   1,K
+  40
+
+#lvl_3
+   1,R,J,G
+# any%-end
+  12,R
+   4,L,Z
+   1,L,J
+   5,L
+   1,L,D,J
+   1,R,J,PE
+   8,PE,F,90
+Repeat, 2
+   1,PE,F,30.7075
+   1,PE,F,90
+EndRepeat
+  18,L,PE,F,90
+Repeat, 6
+   1,L,PE,F,64.6235
+   1,L,PE,F,90
+EndRepeat
+   1,L,PE,F,90
+   5,R
+   5,R,J
+   1,L,PE
+   1,R,PE,F,0.0000
+   1,R,PE,F,270.0000
+   1,R,PE,F,0.0000
+   1,R,PE,F,270.0000
+   9,R,PE,F,0.0000
+  40
+
+#lvl_4
+   4,R
+   3
+   2,R
+   2
+  16,U,X
+   9,R,J
+   2,R
+   1,R,K,G
+   7,R
+# any%-start
+   4,Z
+   1,R,J
+   9,R,D
+   4,R,J
+   5,R
+   2,R,J
+   1,L,J
+   1,K,G
+  12,U,X
+   7,R,J
+   1,R,K,G
+   1,J
+  40
+# any%-end
+
+#lvl_3b
+   1,R,J,G
+  10,R
+   4,L,Z
+   1,L,J
+   7,L
+   1,L,D,J
+   1,J,PE,F,90
+Repeat, 14
+   1,PE,F,0
+   1,PE,F,90
+EndRepeat
+   4,L,PE,F,0
+Repeat, 6
+   1,PE,F,90
+   1,PE,F,34.66
+EndRepeat
+   1,PE,F,90
+   5,R
+   1,R,J,G
+   1,K
+  40
+
+#lvl_5
+   1,PE,F,90
+   4,L,PE,F,53.807
+   5,PE,F,90
+  15
+  10,R,X
+   8,L,J
+   2,J
+   5,R,Z
+# any%-start
+   1,R,J
+   1
+   3,R
+   1,R,D,J
+   8,R,K,G
+   1,K
+   3,R,J,G
+   2,R
+   1,R,K,G
+   9,R
+   6,R,J
+  20,R
+  11,L,J
+   1,K,G
+   2,R,K
+  16,U,X
+  43
+
+#lvl_6
+  14,R,J
+  15,U,Z
+   1,L,J,G
+   7,L
+  14,L,D,X
+   1,R,J
+  14,R,U,X
+   4,R,J,G
+   7,R
+   5,R,J
+   2,R,K,G
+   5,R
+  10,R,J,G
+   9,R
+   2,R,J
+   7,R
+  43
+
+#lvl_6a
+   5,R
+  16,L
+  12,L,D
+# any%-end
+   5,R,D
+   5,R
+   1,R,D
+  15,R,Z
+  12,R,V
+   1,L,J
+   6,L
+   1,L,J
+   1,J,PE,F,90
+  12,PE,F,90
+Repeat, 7
+   1,PE,F,42.06
+   1,PE,F,90
+EndRepeat
+   9,PE,F,90
+   1,R
+   1,R,J,G
+   9,R
+   7,R,J
+  15,R,D,X
+   1,R,D,J
+   1,J,PE,F,90
+   2,PE,F,90
+  40,PE
+
+#lvl_6b
+   1,PE,F,64.6273
+   1,PE,F,63.4306
+   1,PE,F,90.0000
+   1,PE,F,63.4306
+   1,PE,F,90.0000
+   1,PE,F,63.4306
+   1,PE,F,90.0000
+   1,PE,F,63.4306
+   1,PE,F,62.2022
+   1,PE,F,60.9547
+   1,PE,F,59.6865
+   1,PE,F,58.3958
+   1,PE,F,57.0809
+   1,PE,F,55.7395
+   1,PE,F,54.3695
+   1,PE,F,52.9682
+   1,PE,F,51.5326
+   1,PE,F,50.0595
+   1,PE,F,48.5450
+   1,PE,F,46.9846
+   1,PE,F,45.3732
+   1,PE,F,43.7047
+   1,PE,F,41.9718
+   1,PE,F,40.1657
+   1,PE,F,38.2754
+   1,PE,F,36.2872
+   1,PE,F,34.1835
+   1,PE,F,31.9407
+   1,PE,F,29.5264
+   1,PE,F,26.8936
+   1,PE,F,23.9696
+   1,PE,F,20.6296
+   1,PE,F,16.6233
+   1,PE,F,11.2587
+   8,L,PE,F,0.0000
+Repeat, 8
+   1,L,PE,F,0
+   1,L,PE,F,90
+EndRepeat
+  11,PE,F,90
+  40
+
+#lvl_6c]
+  25,PE,F,90
+   1,PE,F,87.9053
+   1,PE,F,86.3714
+   1,PE,F,84.8366
+   1,PE,F,83.3006
+   1,PE,F,81.7629
+   1,PE,F,80.2231
+   1,PE,F,78.6810
+   1,PE,F,77.1360
+   1,PE,F,75.5428
+   1,PE,F,73.9342
+   1,PE,F,72.3084
+   1,PE,F,70.6630
+   1,PE,F,68.9956
+   1,PE,F,67.3037
+   1,PE,F,65.5843
+   1,PE,F,63.8343
+   1,PE,F,62.0500
+   1,PE,F,60.2276
+   1,L,PE,F,58.3624
+   1,L,PE,F,56.4492
+   1,L,PE,F,54.4821
+   1,L,PE,F,52.4539
+   1,L,PE,F,50.3562
+   1,L,PE,F,48.1789
+   1,L,PE,F,45.9096
+   1,L,PE,F,43.5329
+   1,L,PE,F,41.0287
+   1,L,PE,F,38.3710
+   1,L,PE,F,35.5239
+   1,L,PE,F,32.4361
+   1,L,PE,F,29.0291
+   1,L,PE,F,25.1719
+   1,L,PE,F,20.6107
+   1,PE,F,16
+   1,R
+   2,R,J,G
+   1,R
+   8,R,J
+  13,U,X
+  43
+
+#lvl_7
+   4,R,J
+   2,R
+   1,R,K,G
+   6,R
+  14,R,Z
+   1,L,J
+   6,L
+   3,L,J
+   1,J,PE,F,90
+Repeat, 17
+   1,PE,F,0
+   1,PE,F,90
+EndRepeat
+  15,L,PE,F,0
+   1,L
+   1,K
+  40
+
+#lvl_8
+   1,L
+   4,R,J,G
+   3,L,J
+   1,R,J
+   2
+# any%-start
+  14,R,Z
+   1,R,J
+   3,R
+   1,R,J
+   4,R
+  17,R,J,G
+  13,U,X
+   3,J
+   1,L,K,G
+   3,L,J,G
+   2
+   5,R
+   7,R,Z
+  12,R,J
+   1,R,K,G
+   4,K
+   5,R,K
+  40
+
+#lvl_8b
+   1,R,K
+  15,R,D,X
+   1,R,J
+  15,R,D,X
+   3,R
+   1,R,J
+   4,R
+  15,R,D,X
+   1,L,J
+   5
+   5,J
+   8,G
+   1,U,G
+   8,U,Z
+  16,J
+  40
+
+#lvl_9
+   4,J,G
+   2
+   2,J,G
+   3,R
+  11,R,U,X
+   1,R,J,G
+   6
+   3,R
+   1,J
+   3,D,K
+   7,L
+  18,L,J,G
+   5
+   1,G
+  13,U,Z
+   1,R,J
+   2,R
+   1,R,K,G
+   1,R
+   1
+  11,R
+  40
+
+#lvl_9b
+   2,R
+  14,R,J
+  14,R,U,X
+   1,J,G
+   3
+   2,L
+   1
+   1,L
+   1,J
+  14,U,X
+   1,J
+   1,R,K,G
+   7
+  11,U,X
+  40
+
+#lvl_10a
+   1,R,J
+   3,R
+   1,R,K,G
+   9,R
+  15,R,J
+  14,U,Z
+  24,R,J
+  10,R,Z
+   3,L,J
+   1,J
+   2,L,J
+   1,L
+   5,L,J
+  10,L,K,G
+  15,L,D,X
+  15,L,D
+   4,L
+   1
+   4,L
+  14,U,Z
+   6,L,K
+   1,K
+   2,L,K
+   1,J
+   7
+   2,L,J
+  15,U,X
+   9,R,J
+   8,L,J
+   1,K
+  40
+
+#lvl_11
+   1,L,J,G
+   3,L,K,G
+  12,L,J,G
+   5,L,X
+  16,L
+  17,U,X
+  11,R,J
+   7,L,J
+   4,K,G
+   1
+   1,J,G
+   7,L
+   6,L,Z
+   1,L,J
+   6,L
+  13,L,J,P
+  15,L,D,X
+   4,L
+   3,L,D
+   4,L,J
+   4,L
+  14,U,X
+   6,J
+  40
+
+#lvl_12
+  11,R,J
+  10,R,Z
+   2,R,J
+   4,J
+   2
+  14,R,U,X
+   1,J,G
+  24,R,D
+   9,R
+   1,R,J,G
+  32,R,K,G
+   7,R,J
+  10,R,X
+# any%-end
+  14,R,J
+   6,R,U,X
+  40
+
+#lvl_12a
+   9,R,U,X
+   1,L,J,G
+   1,L,K,G
+  41,L,U,G
+   1,L
+   1,J,G
+   1,L,K,G
+  17,R,K,G
+   1,PE,F,270
+Repeat, 15
+   1,PE,F,0
+   1,PE,F,270
+EndRepeat
+  14,R,PE,F,0
+   4,PE,F,0
+  40
+
+#lvl_end
+   8,L
+   3
+# any%-start
+  11,R,D,X
+   4,R,J
+  12,R,U,X
+   1,R,J,G
+   9,R
+   1,R,J
+  13,R,D,X
+   1,S
+   1,D,J
+  18
+
+ChapterTime: 0:47.328(2784)
