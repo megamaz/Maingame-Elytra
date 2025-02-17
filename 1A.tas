@@ -7,7 +7,7 @@ console load 1
    1
 
 #Start
-console,ch_toggle_elytra
+console ch_toggle_elytra
   88
 
 #lvl_1
@@ -36,11 +36,11 @@ EndRepeat
 
 #lvl_2
    1,PE,F,90
-   1,L,PE,F,55.2708
-   1,L,PE,F,53.4499
-   1,L,PE,F,51.5751
-   1,L,PE,F,49.6394
-   1,L,PE,F,47.6346
+   1,ML,PE,F,55.2708
+   1,ML,PE,F,53.4499
+   1,ML,PE,F,51.5751
+   1,ML,PE,F,49.6394
+   1,ML,PE,F,47.6346
    1,PE,F,45.5507
    1,PE,F,43.3755
    1,PE,F,41.0936
@@ -145,7 +145,7 @@ EndRepeat
 
 #lvl_5
    1,PE,F,90
-   4,L,PE,F,53.807
+   4,ML,PE,F,53.807
    5,PE,F,90
   15
   10,R,X
@@ -255,7 +255,7 @@ EndRepeat
    1,PE,F,20.6296
    1,PE,F,16.6233
    1,PE,F,11.2587
-   8,L,PE,F,0.0000
+   8,ML,PE,F,0.0000
 Repeat, 8
    1,L,PE,F,0
    1,L,PE,F,90
@@ -283,21 +283,21 @@ EndRepeat
    1,PE,F,63.8343
    1,PE,F,62.0500
    1,PE,F,60.2276
-   1,L,PE,F,58.3624
-   1,L,PE,F,56.4492
-   1,L,PE,F,54.4821
-   1,L,PE,F,52.4539
-   1,L,PE,F,50.3562
-   1,L,PE,F,48.1789
-   1,L,PE,F,45.9096
-   1,L,PE,F,43.5329
-   1,L,PE,F,41.0287
-   1,L,PE,F,38.3710
-   1,L,PE,F,35.5239
-   1,L,PE,F,32.4361
-   1,L,PE,F,29.0291
-   1,L,PE,F,25.1719
-   1,L,PE,F,20.6107
+   1,ML,PE,F,58.3624
+   1,ML,PE,F,56.4492
+   1,ML,PE,F,54.4821
+   1,ML,PE,F,52.4539
+   1,ML,PE,F,50.3562
+   1,ML,PE,F,48.1789
+   1,ML,PE,F,45.9096
+   1,ML,PE,F,43.5329
+   1,ML,PE,F,41.0287
+   1,ML,PE,F,38.3710
+   1,ML,PE,F,35.5239
+   1,ML,PE,F,32.4361
+   1,ML,PE,F,29.0291
+   1,ML,PE,F,25.1719
+   1,ML,PE,F,20.6107
    1,PE,F,16
    1,R
    2,R,J,G
