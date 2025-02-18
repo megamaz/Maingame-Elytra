@@ -1,4 +1,4 @@
-RecordCount: 8568
+RecordCount: 8599
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -7,7 +7,7 @@ console load 2
    1
 
 #Start
-console,ch_toggle_elytra
+console ch_toggle_elytra
  190
 
 #lvl_start
@@ -40,6 +40,8 @@ console,ch_toggle_elytra
    1,J,PE,F,90
    1,PE,F,64.8849
   40
+
+#lvl_1 (0)
    1,PE,F,90.0000
 Repeat, 2
    1,PE,F,64.8849
@@ -58,18 +60,13 @@ EndRepeat
    3,PE,F,270
    7,R,D
   36,ML,PE,F,180
-  67,R,D
-   3,R
-   2,R,D
-   4,R
-   7,R,Z
-   1,R,J
-   6,R
-   1,R,J
-   5,R
-   1,R,J
-   3,R
-   1,R
+  10,R,D
+   2,D
+   5,R,D
+   7,R
+   7,R,D
+  55,PE,F,119.4
+   1
   15,R,Z
   11,R,D,X
    1,L,J
@@ -205,7 +202,7 @@ EndRepeat
    9,U,X
   40
 
-#lvl_1
+#lvl_1 (1)
    1
    8,R,J
   15,L,J
@@ -788,4 +785,4 @@ EndRepeat
    1,D,J
   18
 
-FileTime: 1:26.496(5088)
+FileTime: 1:26.309(5077)
