@@ -1,4 +1,4 @@
-RecordCount: 8657
+RecordCount: 9035
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -48,25 +48,30 @@ Repeat, 2
    1,PE,F,90.0000
 EndRepeat
    1,PE,F,66.
-   4,PE,F,90.0000
-   7,R
+   2,PE,F,90.0000
+   3,PE,F,78
+   5,R
+   2
    1,PE,F,270
    3,PE,F,180
    6,MR,PE,F,180
+   1,MR,PE,F,171
   40
+#+2f slow down
 
 #lvl_d0 (0)
-   6,L,D
+   6,L
    3,PE,F,270
-   7,R,D
-  36,ML,PE,F,180
-  10,R,D
-   2,D
-   5,R,D
-   7,R
-   7,R,D
-  55,PE,F,119.4
+  31,PE,F,180
+   2
+  12,D
+  12,R,D
+   1,R,D,PE
+   6,PE,F,180
+  41,PE,F,123.5
+   8,PE,F,104
    1
+   1,R,J
   15,R,Z
   11,R,D,X
    1,L,J
@@ -82,6 +87,8 @@ EndRepeat
    1,R,J
    3,PE,F,90
   40
+#-4f cleanup
+#-11f maintain first glide past corner
 
 #lvl_d7 (0)
   12,PE,F,75
@@ -168,15 +175,19 @@ EndRepeat
    1,L,J,G
   14,L
    1,L,D,J
+   1,L,PE
   16,PE,F,270
-   6,L
-   1,L,J
-   2,PE,F,0
+   5,L
+   2,L,J
+   1,L,J,PE
   40
 
 #lvl_d0 (1)
-  10,PE,F,0
-  41,L,X
+   4,PE,F,0
+   1,PE,F,270
+   5,PE,F,0
+#492.55
+  40,L,X
 # any%-start
    4,R,G
   20,R,U,X
@@ -201,7 +212,7 @@ EndRepeat
    2,R,J
    9,U,X
   40
-#1176 (-5f)
+#-1f hold jump in previous room for better speed into dream block
 
 #lvl_1 (1)
    1
@@ -785,6 +796,6 @@ EndRepeat
    1,S
    1,D,J
   18
-#5072 (-5f)
+#5058 (-14f)
 
-FileTime: 1:26.224(5072)
+FileTime: 1:25.986(5058)
