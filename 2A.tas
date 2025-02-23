@@ -1,4 +1,4 @@
-RecordCount: 9035
+RecordCount: 9337
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -48,23 +48,21 @@ Repeat, 2
    1,PE,F,90.0000
 EndRepeat
    1,PE,F,66.
-   2,PE,F,90.0000
-   3,PE,F,78
-   5,R
-   2
+   4,PE,F,90.0000
+   7,R
    1,PE,F,270
    3,PE,F,180
-   6,MR,PE,F,180
-   1,MR,PE,F,171
+   2,MR,PE,F,180
+   5,MR,PE,F,156.51
   40
-#+2f slow down
+#227 (-1f) faster manip
 
 #lvl_d0 (0)
+#-202, 414
    6,L
-   3,PE,F,270
-  31,PE,F,180
-   2
-  12,D
+   2,PE,F,212
+  30,MR,PE,F,180
+  14,D
   12,R,D
    1,R,D,PE
    6,PE,F,180
@@ -87,10 +85,9 @@ EndRepeat
    1,R,J
    3,PE,F,90
   40
-#-4f cleanup
-#-11f maintain first glide past corner
+#450 (-2f) better speed
 
-#lvl_d7 (0)
+#lvl_d7
   12,PE,F,75
    1,R
   12,R,D,X
@@ -102,11 +99,10 @@ EndRepeat
    3,PE,F,90
   40
 
-#lvl_d7 (1)
+#lvl_d8
    5,PE,F,90
   13,R
-   1,R,J,G
-   1,J,PE,F,90
+   1,J,G,PE,F,90
    1,PE,F,63.3244
    1,PE,F,62.1939
    1,PE,F,61.0473
@@ -118,7 +114,7 @@ EndRepeat
    1,PE,F,53.7512
    1,PE,F,52.4502
    1,PE,F,51.1192
-   1,PE,F,49.7556
+   4,PE,F,49.7556
    1,PE,F,48.3562
    1,PE,F,46.9176
    1,PE,F,45.4357
@@ -134,21 +130,26 @@ EndRepeat
    1,ML,PE,F,26.4531
    1,ML,PE,F,23.7270
    3,PE,F,90
-   1,R
-   2,R,J,G
-   5,R
+   2,R
+   5,R,J,G
+   1,R,PE
   40
+#633 (-1f) glide start
 
 #lvl_d3
-   6,R
-  10,R,J
-   3,R
-   7
-  14,L,U,Z
+   8,PE,F,90
+Repeat, 5
+   1,PE,F,90
+   1,PE,F,73
+EndRepeat
+   2,PE,F,90
+   2,R
+   1,R,J
+  15,L,U,Z
    1,S
    1,D,J
   34
-  24,U,X
+  23,U,X
    5,L
   13,L,D,X
    1,L,J
@@ -160,6 +161,7 @@ EndRepeat
    1,L,K,G
    8,L
   40
+#803 (-3f) glide continued
 
 #lvl_d2
   16,L,D
@@ -212,7 +214,6 @@ EndRepeat
    2,R,J
    9,U,X
   40
-#-1f hold jump in previous room for better speed into dream block
 
 #lvl_1 (1)
    1
@@ -388,6 +389,7 @@ EndRepeat
    3,L,K
   11,U,X
   40
+#2227
 
 #lvl_7
    1
@@ -796,6 +798,6 @@ EndRepeat
    1,S
    1,D,J
   18
-#5058 (-14f)
+#5051 (-7f)
 
-FileTime: 1:25.986(5058)
+FileTime: 1:25.867(5051)
