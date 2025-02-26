@@ -1,4 +1,4 @@
-RecordCount:0
+RecordCount: 2039
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -397,8 +397,30 @@ EndRepeat
    2,R
    1,R,J
 # any%-end
-  21,J,PE,F,45
-   6,R
+   1,J,PE,F,90
+   1,PE,F,68.5191
+   1,PE,F,67.7941
+   1,PE,F,67.0638
+   1,PE,F,66.3280
+   1,PE,F,65.5864
+   1,PE,F,64.8388
+   1,PE,F,64.0848
+   1,PE,F,63.3242
+   1,PE,F,62.5565
+   1,PE,F,61.7815
+   1,PE,F,60.9988
+   1,PE,F,60.2080
+   1,PE,F,59.4088
+   1,PE,F,58.6006
+   1,PE,F,57.7830
+   1,PE,F,56.9555
+   1,PE,F,56.1176
+   1,PE,F,55.2687
+   1,PE,F,54.4083
+   1,PE,F,53.5356
+   1,PE,F,52.6500
+   3,ML,PE,F,90
+   1,L
    1,J
    1,R,K,G
    8,K
@@ -524,4 +546,4 @@ EndRepeat
    1,D,J
   18
 
-ChapterTime: 0:47.243(2779)
+ChapterTime: 0:47.226(2778)
