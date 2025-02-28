@@ -1,4 +1,4 @@
-RecordCount: 1480
+RecordCount: 1481
 
 console load 7
    1
@@ -1072,7 +1072,7 @@ EndRepeat
    1,R
    6,R,D,J
   10,PE,F,90
-  26,PE,F,281.537
+  26,PE,F,78.4629
   22,PE,F,90
    1,PE,F,88.5634
    1,PE,F,87.1264
