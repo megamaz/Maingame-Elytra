@@ -1,4 +1,4 @@
-RecordCount: 1481
+RecordCount: 1492
 
 console load 7
    1
@@ -14,8 +14,10 @@ Set,CommunalHelper.DeployElytra,E
 
 #lvl_a-00
   78
-   8,R,J
-  14,R,Z
+   4,R,X
+   9,R,J
+   2,J
+  10,R,D,X
    1,L,J
   28,PE,F,90
    5,PE,F,90.0000
@@ -45,23 +47,14 @@ Set,CommunalHelper.DeployElytra,E
   10,PE,F,90.0000
    1,PE,F,71.9493
    1,PE,F,70.2941
-   1,PE,F,68.6163
-   1,PE,F,66.9132
-   7,PE,F,90.0000
-   1,PE,F,76.9504
-   1,PE,F,75.3170
-   1,PE,F,73.6673
-   1,PE,F,71.9991
-   5,PE,F,90.0000
-   6,R
+  13,PE,F,90
+  14,R,Z
    1,R,J
    2,R
-   1,PE,F,90
   40
 
 #lvl_a-01
-   2,R
-   2
+   1,R
   14,R,D,X
    1,R,J
   14,R
@@ -937,17 +930,19 @@ EndRepeat
   40
 
 #lvl_d-01
-  11,R
-   8,L,D,X
+   2,L,J,G
+   4,R
+   3,R
+   2,R
+   5,R,D,X
    1,R,J
    7,R
-   1,R,D
    1,R,D,J
    1,PE,F,90
    1,PE,F,64
    1,PE,F,90
    1,PE,F,64
-   8,PE,F,101.602
+   7,PE,F,115
    1,PE,F,74.6976
    1,PE,F,73.1931
    1,PE,F,71.6727
@@ -1148,4 +1143,4 @@ EndRepeat
    1,U,O
    1,J
   31
-FileTime: 2:11.665(7745)
+FileTime: 2:11.512(7736)
