@@ -1,4 +1,4 @@
-RecordCount: 3295
+RecordCount: 3753
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -325,7 +325,6 @@ EndRepeat
    1,ML,PE,F,17.4577
    3,L
   40
-
 #lvl_b-00
 # probably something here
   12,L
@@ -358,24 +357,36 @@ EndRepeat
    1,R,J
    5,R,K,G
    4,R,J,G
-   8,R,U,X
+   1,PE,F,90
+   1,PE,F,63.3705
+   1,PE,F,62.0693
+   1,PE,F,60.7463
   40
-
-#lvl_b-02
-   4,L
-  10,J,G
-   1,R,J
-  12,U,X
+   1,PE,F,59.3999
+   1,PE,F,58.0280
+   1,PE,F,56.6282
+   1,PE,F,55.1980
+   1,PE,F,53.7346
+   1,PE,F,52.2347
+   1,PE,F,50.6946
+   1,PE,F,49.1101
+   1,PE,F,47.4761
+   1,PE,F,45.7869
+   1,PE,F,44.0356
+   1,PE,F,42.2139
+   1,PE,F,40.3117
+   1,PE,F,38.3163
+   1,PE,F,36.2117
+   1,PE,F,33.9767
+  10,U,X
   43
 
 #lvl_b-05
    4,R
-   1
-   1,R
-   1
+   2
   28,L,J
   15,U,X
-   1,L
+   2,L
    9,R,J
    7,J
    1,R,J
@@ -390,53 +401,19 @@ EndRepeat
    1,R,J,G
    1,R,K,G
    4
-# any%-end
-   4,Z
-   1,R,J
-   7,R
-   1,R,J
-   1,J,PE,F,90
-   1,PE,F,57.5063
-   1,PE,F,55.8851
-   1,PE,F,54.2220
-   1,PE,F,52.5123
-   1,PE,F,50.7506
-   1,PE,F,48.9306
-   1,PE,F,47.0447
-   1,PE,F,45.0840
-   1,PE,F,43.0372
-   1,PE,F,40.8907
-   1,PE,F,38.6320
-   1,PE,F,36.2391
-   1,PE,F,33.6826
-   1,PE,F,30.9211
-   1,PE,F,27.8926
-   1,PE,F,24.4971
-   1,PE,F,20.5519
-   1,PE,F,15.6446
-   1,PE,F,8.1955
-Repeat, 15
-   1,PE,F,0
+  10,L,D,X
+   1,L,J
    1,PE,F,90
+Repeat, 24
+   1,PE,F,90
+   1,PE,F,20.4374
 EndRepeat
-   7,ML,PE,F,11.179
-   1,R
-  14,L,K
-   1,J
-   1,K,G
-  10,K
-   1,R,K
+  21,PE,F,90
+  14,U,X
   40
-
 #lvl_b-08
-# havent tried other ideas here
-   4,R
-   1,R,J,G
-   1,R,K,G
-   1,K
-   1,R,K
-  10,R,J,G
-  11,R,X
+  13,R,J
+  14,R,X
    1,L,J
    2,L
    5
@@ -454,11 +431,13 @@ EndRepeat
    1,PE,F,58.1034
    1,PE,F,56.8581
    1,PE,F,55.5890
+   1,PE,F,54.7305
   15,PE,F,90
    1,R
-   4,R,J,G
-   2,R,K,G
-  11,R
+   1,R,J,G
+   1,R
+   1,R,K,G
+   9,R
    1,R,J
   17,J,PE,F,90
    1,PE,F,80.1362
@@ -534,6 +513,7 @@ EndRepeat
   27,PE,F,90
   22,PE,F,180
   51,PE,F,0
+
 Repeat, 14
    1,PE,F,90
    1,PE,F,0
@@ -585,17 +565,21 @@ EndRepeat
    1,ML,PE,F,20.5052
    1,ML,PE,F,15.1622
    1,ML,PE,F,6.2738
-  14,ML,PE,F,0.0000
+Repeat, 7
+   1,PE,F,270
+   1,ML,PE,F,0
+EndRepeat
    1,L
-   1,K
   40
 
 #lvl_c-04
-   3,R,J,G
-  10,R
+   1,R,J,G
+   1,R
+   2,R,J,G
+   7,R
    4,R,Z
    1,R,J
-   6,R
+   7,R
    1,R,J
    1,J,PE,F,90
    1,PE,F,57.7887
@@ -623,18 +607,12 @@ EndRepeat
    1,PE,F,46.0668
    1,PE,F,44.0745
    1,PE,F,41.9906
-   1,PE,F,39.8000
-   1,PE,F,37.4881
-   1,PE,F,35.0301
-   1,PE,F,90
+   1,PE,F,43.16
+   3,PE,F,90
    1,L
-   1,L,J,G
-   1,L
-   9,L,J,G
-   1,L
+  12,L,J,G
   12,L,K,G
-   1,L
-   1,R,J
+   2,R,J
    7,R
    4,R,Z
    1,R,J
@@ -648,12 +626,10 @@ Repeat, 17
    1,PE,F,72.3216
    1,PE,F,90.0000
 EndRepeat
+Repeat, 35
    1,PE,F,90
-Repeat, 34
    1,PE,F,73.7373
-   1,PE,F,90.0000
 EndRepeat
-   1,PE,F,73.7373
    1,R
 # any%-start
   15,U,X
@@ -661,8 +637,7 @@ EndRepeat
   15,U,C
    4,L
   12,L,J
-  40,P
-
+  40
 #lvl_c-06
    7,R
    1,R,J,G
@@ -674,16 +649,20 @@ EndRepeat
    4,L
    4,L,D,J
    1,J,PE,F,90
-Repeat, 19
+   2,PE,F,90
+Repeat, 18
    1,PE,F,0
    1,PE,F,90
 EndRepeat
-  11,ML,PE,F,0
+Repeat, 5
+   1,ML,PE,F,0
+   1,PE,F,270
+EndRepeat
 Repeat, 8
    1,PE,F,0
    1,PE,F,90
 EndRepeat
-   5,ML,PE,F,0
+   4,ML,PE,F,0
   14,L,J
 # any%-start
   28,L,X
@@ -725,7 +704,7 @@ Repeat, 10
    1,PE,F,25.2888
    1,PE,F,90
 EndRepeat
-   5,ML,PE,F,0.0000
+   5,ML,PE,F,0
    1,L
    1,L,K
   40
@@ -803,7 +782,6 @@ EndRepeat
    1,L
    1,K
   40
-
 #lvl_c-07
    1,R,J,G
    6,R
@@ -833,16 +811,25 @@ EndRepeat
    1,PE,F,21.9291
    1,PE,F,17.4507
    1,PE,F,11.3237
-   5,ML,PE,F,0
+   1,PE,F,0
+Repeat, 2
+   1,PE,F,270
+   1,ML,PE,F,0
+EndRepeat
 Repeat, 4
    1,PE,F,90
    1,PE,F,0
 EndRepeat
-   1,PE,F,90
-   5,ML,PE,F,0
-   1,ML,PE,F,6.5
-  29,PE,F,90
-   2,R
+   1,PE,F,270
+   1,ML,PE,F,0
+Repeat, 2
+   1,PE,F,270
+   1,ML,PE,F,341.517
+EndRepeat
+   1,PE,F,270
+   6,PE,F,36.7
+  23,PE,F,90
+   1,R
    9,L,Z
    1,R,J
    6,R
@@ -853,7 +840,6 @@ EndRepeat
    1,PE,F,56.4448
    1,PE,F,54.9216
   40
-
 #lvl_c-08
    1,PE,F,53.3604
    1,PE,F,51.7570
@@ -874,28 +860,30 @@ EndRepeat
    1,PE,F,13.1676
    1,PE,F,2.3634
 Repeat, 6
-   1,PE,F,0
    1,PE,F,90
+   1,PE,F,0
 EndRepeat
-  14,ML,PE,F,0
+Repeat, 7
+   1,PE,F,270
+   1,ML,PE,F,0
+EndRepeat
 Repeat, 8
-   1,PE,F,0
    1,PE,F,90
-EndRepeat
    1,PE,F,0
+EndRepeat
    1,R
   14,U,X
-  10,L,J
-  15,U,X
+   9,L,J
+  15,U,Z
   11,L,U,C
+   2,J
+   3,R,K,G
+   1,R
+   2
+   1,L
    1,R,J,G
-   6,R,K,G
-   5,R
-   5,R,K,G
-   5,R
-   1,R,J
-   8,R
-   9,R,J,G
+   1,R,K,G
+  29,R,J,G
   15,U,X
   16,U,C
   15,L,J
@@ -903,12 +891,12 @@ EndRepeat
   12,R,K,G
    3,J,G
    1,L,J
-  12,R,K,G
+  11,R,K,G
+   2,R
    1,R,J,G
    1,R,K,G
    1,J
   40
-
 #lvl_d-00
 # any%-start
    1,R,J,G
@@ -1255,4 +1243,4 @@ EndRepeat
    1,S
    1,D,J
   18
-ChapterTime: 1:29.879(5287)
+ChapterTime: 1:29.488(5264)
