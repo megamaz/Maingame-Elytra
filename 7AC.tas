@@ -296,14 +296,15 @@ EndRepeat
   50,L
    8,U,X
    1,R,J
-  33,PE,F,125
+  27,PE,F,125
+   6,R
  158
    1,S
    1,D,J
  141
 
 #lvl_b-00
-  81
+  76
   10,R,Z
    1,R,J
   43,ML,PE,F,0
@@ -1143,4 +1144,4 @@ EndRepeat
    1,U,O
    1,J
   31
-FileTime: 2:11.512(7736)
+FileTime: 2:11.427(7731)
