@@ -1,4 +1,4 @@
-RecordCount: 8156
+RecordCount: 8386
 
 console load 7
    1
@@ -2325,7 +2325,6 @@ EndRepeat
    1,L,J
    1,L,K,G
    7,L
-
 #CP-29
   15,U,X
   12,R,J
@@ -2353,14 +2352,18 @@ EndRepeat
 #lvl_g-00b
 #CP-28
  112
-
-  10,R,Z
+   4,R,Z
    2,R,J
-   2,PE,F,270
-  37,PE,F,0
+   4,R
+   2,R,J
+   4,R,K,G
+   1,K,PE,F,270
+Repeat, 14
+   1,PE,F,270
+   1,PE,F,0
+EndRepeat
   15,U,X
-   7,J,G
-   7,R
+  10
   15,R,U,Z
    5,R,J
   14,U,X
@@ -2439,14 +2442,17 @@ EndRepeat
    1,PE,F,50.6217
    6,R
   10,R,Z
+
+#CP-25
    2,R,J
-   2,PE,F,270
-   6,PE,F,0
-  29,MR,PE,F,0
-Repeat, 16
+   1,J,PE,F,270
    1,PE,F,270
-   1,PE,F,348
+Repeat, 23
+   1,MR,PE,F,0
+   1,PE,F,90
 EndRepeat
+   9,PE,F,270
+   1,PE,F,0
    6,U,X
   26,R,J
    1,R,K,G
@@ -2490,25 +2496,26 @@ EndRepeat
   11,R
 
 #CP-22
-  15,L,U,X
-   1
-   2,L
-  12,U,X
-Repeat, 7
+   4,R,Z
+   1,R,J
+   4,R
+   1,R,J
+   1,J,PE,F,270
+   6,PE,F,270
+Repeat, 5
+   1,PE,F,335.1809
    1,PE,F,270
-   3,PE,F,0
 EndRepeat
-   3,PE,F,270
-
-  13,L,U,X
+Repeat, 11
+   1,PE,F,0
+   1,PE,F,270
+EndRepeat
+   1,PE,F,0
+   1,PE,F,310
+   9,PE,F,0
+   4,PE,F,32
+   1,PE,F,90
    2,L
-#  15,U,Z
-#   5,R,X
-#  17,L
-#  15,L,U,X
-#  15,L,U,C
-
-
   10,L,X
    1,L,J,G
    7,L
@@ -2600,10 +2607,10 @@ EndRepeat
 #lvl_g-01
 #CP-19
  109
-
   10,R,D,X
    1,R,J
-   2,PE,F,270
+   1,J,PE,F,270
+   1,PE,F,270
 Repeat, 27
    1,PE,F,0
    1,PE,F,90
@@ -2611,24 +2618,23 @@ EndRepeat
    1,L
   15,U,X
   11,L,J,G
-  10,L
+   7,L
 
 #CP-18
   10,L,Z
    1,L,J
-   2,PE,F,90
-Repeat, 25
-   1,PE,F,12
+   1,J,PE,F,90
+Repeat, 22
    1,PE,F,90
+   1,PE,F,0
 EndRepeat
-   5,PE,F,90
-  16,R
+  22,PE,F,90
   15,R,Z
   14,R
   21,R,D
    1,R,J
-  10,J
-   5,R,J
+  11,J
+   4,R,J
   10,R,Z
   20,R
   13,R,D
@@ -2647,51 +2653,67 @@ EndRepeat
 
 #CP-16
    1,R,J
-   2,PE,F,270
-  16,PE,F,0
-   6,PE,F,270
-   5,L
-  13,L,Z
-
+   1,J,PE,F,270
+Repeat, 10
+   1,PE,F,270
+   1,PE,F,0
+EndRepeat
+   0,PE,F,270
+   6,L
+  14,L,Z
 #CP-15
-   2,L,J
+   1,L,J
+   1,J,PE,F,90
+Repeat, 15
+   1,PE,F,90
+   1,PE,F,0
+EndRepeat
+Repeat, 2
+   1,PE,F,270
+   1,ML,PE,F,0
+EndRepeat
    2,PE,F,90
-  32,PE,F,0
-   9,PE,F,90
+   1,PE,F,0
+   1,PE,F,90
   15,R,D,X
-   3
+   3,R
 
 #CP-14
-   3
+   2,R
+   1,R,J
   10,L,D,X
    1,L,J
-   2,PE,F,90
+   1,J,PE,F,90
 Repeat, 112
-   1,PE,F,32
    1,PE,F,90
+   1,PE,F,32
 EndRepeat
- 120,PE,F,90
+Repeat, 35
+   1,PE,F,0
+   1,PE,F,40
+   1,PE,F,180
+EndRepeat
   15,U,X
-   9
-Repeat, 26
-   2,PE,F,270
-   2,PE,F,314
+   8,R
+Repeat, 52
+   1,PE,F,270
+   1,PE,F,314
 EndRepeat
-   6,L
-  13,R,X
-  13,L,J
+  10,R,X
+  11,L,J
+   4
   15,U,X
   14,R
   18,U,X
-   2
+   2,L
   20,L,C
   18,U,X
   15,L,U,C
-   1,L
-   2
-   1,L
+   3,L
    7,U,X
-  32,L,J
+  15,L,J
+   9,L
+   9,L,J
   15
    4,L
    2,D
@@ -3017,4 +3039,4 @@ EndRepeat
    1,D,J
   18
 
-ChapterTime: 5:56.320(20960)
+ChapterTime: 5:55.249(20897)
