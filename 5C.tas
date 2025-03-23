@@ -1,11 +1,10 @@
-RecordCount: 393
+RecordCount: 579
 
 console rmx2 5
+   1
 
 console ch_toggle_elytra
-
 Set,CommunalHelper.DeployElytra,E
-   1
 
 #Start
   61
@@ -15,100 +14,57 @@ Set,CommunalHelper.DeployElytra,E
    6,L,D,Z
    1,R,J
    7,R
-   1,R,J
-  20,J,PE,F,90
-   1,PE,F,84.8116
-   1,PE,F,83.4632
-   1,PE,F,90.0000
-   1,PE,F,83.4703
-   1,PE,F,82.1186
-   1,PE,F,90.0000
-   1,PE,F,82.1294
-   1,PE,F,80.7737
-   1,PE,F,90.0000
-   1,PE,F,80.7890
-   1,PE,F,79.4285
-   1,PE,F,90.0000
-   1,PE,F,79.4491
-   1,PE,F,78.0832
-   1,PE,F,90.0000
-   1,PE,F,78.1099
-   1,PE,F,76.7040
-   1,PE,F,90.0000
-   1,PE,F,76.7040
-   1,PE,F,75.2827
-   1,PE,F,90.0000
-   1,PE,F,75.2827
-   1,PE,F,73.8439
-   1,PE,F,90.0000
-   1,PE,F,73.8439
-   1,PE,F,72.3856
-   1,PE,F,90.0000
-   1,PE,F,72.3856
-   1,PE,F,70.9054
-   1,PE,F,69.4062
-   1,PE,F,90.0000
-   1,PE,F,69.4062
-   1,PE,F,67.8800
-   1,PE,F,66.3304
-   1,PE,F,90.0000
-   1,PE,F,66.3304
-   1,PE,F,64.7494
-   1,PE,F,63.1416
-   1,PE,F,90.0000
-   1,PE,F,63.1416
-   1,PE,F,61.4977
-   1,PE,F,59.8207
-   1,PE,F,90.0000
-   1,PE,F,59.8207
-   1,PE,F,58.0993
-   1,PE,F,56.3367
-   1,PE,F,90.0000
-   1,PE,F,56.3367
-   1,PE,F,54.5192
-   1,PE,F,52.6497
-   1,PE,F,90.0000
-   1,PE,F,52.6497
-   1,PE,F,50.7109
-   1,PE,F,48.7051
-   1,PE,F,90.0000
-   1,PE,F,48.7051
-   1,PE,F,46.6098
-   1,PE,F,44.4252
-   4,PE,F,0
+   1,R,D,J
+   1,J,PE,F,90
+  12,PE,F,90
+Repeat, 18
+   1,PE,F,90
+   1,PE,F,76.5989
+EndRepeat
+   1,PE,F,75.1372
+   1,PE,F,73.6613
+   1,PE,F,72.1694
+   1,PE,F,70.6595
+   1,PE,F,69.1297
+   1,PE,F,67.5794
+   1,PE,F,66.0064
+   1,PE,F,64.4082
+   1,PE,F,62.7822
+   1,PE,F,61.1254
+   1,PE,F,59.4346
+   1,PE,F,57.7059
+   1,PE,F,55.9352
+Repeat, 10
+   1,PE,F,54.1175
+   1,PE,F,90
+EndRepeat
   40
 
 #lvl_01
-   2,PE,F,0
-   2,PE,F,32.1
+   1,PE,F,54.1958
+   1,PE,F,40.8204
+   1,PE,F,52.9765
    1,L
    1,J
-  12,L,J
+   6,L,J
+   1,R,J
+   5,L,J
    1,L,K,G
   10,J,G
+   1,K,G
+   1,J,G
+   5,J
+   2,L,J
    1,R,J
-   1,L,K,G
-   1,L,J,G
-   2,J
-   1,R,J
-   1,J
-   1,R,J
-   1,J
    1,L,J
-   1,R,J
-   3
    9,R,D,X
    1
    5,R,D,X
    1,J
-   1,S,N
-  10,O
-   5,R,D,X
-repeat,5
-   1,S,N
-  10,O
-   2,R,D,X
-endrepeat
+   4,R,D,X
+StunPause
+  11,R,D,X
+EndStunPause
   13,R,D
    1,R,D,J
   40
@@ -159,4 +115,4 @@ EndRepeat
    1,L,G
   47,L,J,G
 
-ChapterTime: 0:12.665(745)
+ChapterTime: 0:12.597(741)
