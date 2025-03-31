@@ -1,0 +1,327 @@
+RecordCount: 319
+
+console load 6
+   1
+
+console ch_toggle_elytra
+Set,CommunalHelper.DeployElytra,E
+AnalogMode, Ignore
+
+#Start
+ 110
+   1,S
+   1,D,J
+  34
+
+#lvl_start
+# Spinner cycle
+   2
+#
+   4,D,X
+   1,R,J
+   3
+   1,J
+   3
+   3,R,J
+   7,J
+   1,R,J
+  10,U,Z
+  27,L,U
+AnalogMode,Precise
+  77,F,341.34
+   1,F,341.37
+  86,F,346.408
+  30,F,350.447
+   1,F,355.757
+  12,F,11.923
+   1,F,15.515
+  11,F,76
+  12,F,100.221
+   1,F,95.923
+  11,F,36
+  57,F,354.573
+  14,U,X
+  27,L,U
+  69,F,339.043
+   1,F,340.709
+  25,F,359.47
+   1,F,2.564
+  14,F,29.151
+  14,R,U,X
+  27,R,U
+  64,F,358.877
+  15,F,0.003
+  16,F,8.116
+   1,F,2.782
+   5,F,0.108
+   1,F,356.678
+  64,F,349.01
+   1,F,351.015
+   8,F,359.801
+   1,F,5.098
+  23,F,17.523
+   1,F,16.799
+ 156,F,0
+  14,U,X
+   1,S
+   1,D,J
+  18
+
+#lvl_00
+  19
+  15,U,X
+  15,U,C
+  15,U,X
+   1,R
+  15,R,Z
+   1,R,D
+   1,R
+Repeat, 4
+   1,R,J
+   1,R,K
+EndRepeat
+   1,R,J
+   1,R,K
+   1,K,PE,F,270
+Repeat, 13
+   1,PE,F,270
+   1,PE,F,0
+EndRepeat
+Repeat, 3
+   1,PE,F,90
+   1,MR,PE,F,0
+EndRepeat
+  43
+
+#lvl_01
+   5,R,J
+   6
+  10,R,Z
+   1,R,J
+   3,R
+   1,R,K
+   3,R
+   1,R,J
+   1,J
+   8,R,J
+  14,R,U,X
+  27,L,U
+  46,F,356.0789
+   2,F,0
+  21,F,4.5
+   1,F,359.5
+   7,F,320
+   3,F,280
+  14,L,Z
+   1,L,J
+   7,L
+  17,L,J
+  15,U,X
+   4,L
+   1
+  40
+
+#lvl_02
+  11,J
+  14,U,X
+  27,L,U
+  11,F,343.024
+  31,F,324.327
+  10,F,25
+  31,F,26.977
+   8,F,18
+   5,L,U,X
+   1,L
+  12,L,J,G
+   6,L,K,G
+   2,L
+   4
+   1,R,J
+   1,J
+  16
+   1,R
+   4,X
+   1,D,X
+   3,R
+   6,L
+   3,R
+   7,D
+   1,R,D
+   1,L,J,G
+   1
+   2,R
+  20,L,U,G
+   1,G
+StunPause
+   1,U,G
+  10,J,G
+   1
+SkipInput,3,1
+  10,R,U,Z
+   1,J,G
+   1,L,J
+   1
+   2,R,J,G
+   1,L,J
+   4,J
+   2
+   1,L
+   2
+   1,R
+   1
+   1,D,J
+   1,R,J
+   2,L,J
+   2
+SkipInput,3,1
+   8,L,X
+EndStunPause
+   2,L
+   1,R,J
+   4,J
+  15,D,X
+   1,R,J
+   3
+   1,R
+   8
+   1,R
+   1
+   1,R
+   1,L
+   6,G
+   5,U,G
+   2,J
+   5,U,X
+  20,L,J
+   1,L,K,G
+   7
+  12,U,X
+   1,J
+  40
+
+#lvl_02b
+
+  11,L
+  16,L,X
+  15,L,C
+  36,L
+   1,J
+   1,K,G
+  11,J,G
+  12,D,X
+Repeat,5
+   1,R,K
+   1,R,J
+   1,L,K
+   1,L,J
+EndRepeat
+   1,R,K
+   1,R,J
+   1,L,J
+  11,U,X
+   7,L,J
+   6,R,J
+  14,U,X
+   6,L,J
+  11,L
+   1,L,K
+  10,L
+   6
+   6,R,K
+Repeat,6
+   1,K
+   1,R,K
+EndRepeat
+   3,K
+   3,R,K
+   7,L,K
+   1,L,K,G
+   7,L,U,G
+   1,J,G
+  10,L,X
+   2,L,J
+   2,K,G
+   2,R,K
+  15,L,K
+  13,U,X
+   7,R,J
+   1,R,K,G
+   7,R
+   2,R,J
+  14,U,X
+  12,L,J
+  40
+
+#lvl_04
+   1,J,G
+   2
+   2,J,G
+   1,R,J
+   5,R
+  15,U,X
+   1,L,J,G
+   7,L
+  10,L,Z
+   1,R,J
+AnalogMode, Ignore
+   1,J,PE,F,270
+Repeat, 9
+   1,PE,F,270
+   1,PE,F,0
+EndRepeat
+  24,PE,F,90
+   1,R
+   3,L
+   1,L,J
+  10,L
+  14,L,X
+   1,L,J,G
+  31,D
+   9
+   8,U,X
+  14,L,D
+  37
+  18,R,G
+   4,U,G
+   1,G
+   5,R,X
+   1,R,J,G
+   1,R,K,G
+   6,R
+   2,R,K
+   3
+   7,L,Z
+   1,R,J
+   1
+   1,J
+   6
+   6,R,D,X
+   1,L,J
+   1
+   5,L
+   1,L,D,J
+   2,L,K,G
+  12,L,D,X
+  43
+
+#lvl_04e
+   3,L,D,X
+   2,L,J
+   4,L
+   8,L,D,X
+   1,L,J,G
+   5,L
+   1,L,J
+   7,L
+   1,L,D
+   2,L,J
+   5,L
+   3,L,J
+  14,L,U,Z
+ 257
+   1,O
+  62
+   1,S
+   1,U,O
+   1,J
+FileTime: 0:53.856(3168)
