@@ -1,4 +1,4 @@
-RecordCount: 18279
+RecordCount: 18662
 
 console load 10
    1
@@ -747,24 +747,31 @@ EndStunPause
    5,R,J
   40
 
+
 #lvl_e-00y (0)
-   1,K,G
-   1,R,K
-   1,L,K
-   1,K
-   1,L,K
-   1,L
-  19,R,J
-  21,R,U,X
-  12,R,V
+   3,L,K,G
+   8,L
+  10,R,Z
+   1,L,J
+   1,J,PE,F,90
+Repeat, 4
+   1,PE,F,90
+   1,PE,F,0
+EndRepeat
+   1,PE,F,90
+   1,PE,F,10
+   9,PE,F,90
+  12,R,Z
+
    1,R,J,G
    1,R,K,G
    1
    1,R,J,G
    2
    1,K,G
-   5,R,K
-   6,R
+   1,K
+   4,R,K
+   5,R
   40
 
 #lvl_e-00yb
@@ -773,10 +780,12 @@ EndStunPause
   13,R,U,X
    1,R,K,G
    2,R,J,G
-   5,R
-   2,R,J
+   4,R
+   1
+   2,J
    2
-   3,J
+   1,R,J
+   2,J
   18,R,U,X
   16,U,C
    7,J
@@ -809,21 +818,21 @@ EndStunPause
 #lvl_e-00z
    5,J
    7,R,J
-  14,L
-   3,L,J
-   8,J
+  11,L
+  10,L,J
+   1,J
   15,U,X
   15,R,Z
    2,G
    4,L,Z
-   1,R,J,G
+   1,R,J
    1,R,K,G
    1,R,J,G
    1,R
    1,R,J,G
    7,R
    1,R,J
-   1,PE,F,270
+   1,J,PE,F,270
 Repeat, 8
    1,PE,F,270
    1,PE,F,0
@@ -933,16 +942,30 @@ EndRepeat
    6,R
   15,U,X
    8,U,C
-  24,L
-  15,L,U,X
-  11,L,U,C
+   1,J,PE,F,270
+   1,PE,F,319.9270
+   1,PE,F,322.6209
+   1,PE,F,325.5160
+   1,PE,F,328.6698
+   1,PE,F,332.1716
+Repeat, 8
+   1,PE,F,270
+   1,PE,F,332.1716
+EndRepeat
+   1,PE,F,270
+   1,PE,F,331.4
+  12,PE,F,270
   15,R
   15,R,U,Z
-  17,L,U,X
-  18,L,U,C
+  15,L,U,X
+   2,L
+  15,L,U,C
+   3,L
   18,U,X
   15,U,C
-  19,U,X
+   1,L
+  18,U,X
+   1,L
    9,R,J
   14,R,U,Z
    4,R,J,G
@@ -1169,7 +1192,6 @@ EndRepeat
    1,R
    1,R,D,J
   40
-
 #lvl_e-06
    8,R,D,X
   13,G
@@ -2927,7 +2949,6 @@ EndRepeat
    8,R,D,X
    1,R,J,G
    2,R
-
   13,PE,F,90
    1,PE,F,82.2458
    1,PE,F,81.1741
@@ -2960,7 +2981,6 @@ Repeat, 2
    1,PE,F,63.9256
    1,PE,F,90
 EndRepeat
-
    1,PE,F,63.9257
    1,PE,F,62.6327
    1,PE,F,61.3189
@@ -2969,7 +2989,6 @@ EndRepeat
    1,PE,F,57.2331
    1,PE,F,55.8158
    1,PE,F,54.3665
-
    1,PE,F,52.8822
    1,PE,F,51.3592
 Repeat, 4
@@ -3013,6 +3032,7 @@ EndRepeat
    1,K,PE,F,90
    5,PE,F,90
   40
+
 #lvl_i-05
    1,PE,F,66.6560
    1,PE,F,66.839
@@ -4128,7 +4148,7 @@ EndRepeat
 
 AnalogMode,Ignore
 #End_IGT
-ChapterTime: 6:24.591(22623)
+ChapterTime: 6:24.336(22608)
 
 # optional waiting for
 # visuals to play out
