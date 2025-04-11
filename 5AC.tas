@@ -1,4 +1,4 @@
-RecordCount: 2532
+RecordCount: 2578
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -12,9 +12,12 @@ console ch_toggle_elytra
 Read, 5A, Start, lvl_b-02
 
 #lvl_b-02
-  14,R
-  23,PE,F,270
-   1,L,D
+   1,PE,F,90
+  12,R
+   1,PE,F,270
+   4,PE,F,180
+  17,PE,F,270
+   2,L,D
    1,L,J
    4,R,D,X
    1,R,J
@@ -27,9 +30,9 @@ Repeat, 12
 EndRepeat
    7,PE,F,90
    1,R
-   2,R,J,G
-   5,R
-   3,R,J
+   3,R,J,G
+   2,R
+   5,R,J
   40
 
 #lvl_b-11
@@ -202,4 +205,4 @@ EndRepeat
    1,U,O
    1,J
 
-FileTime: 0:57.766(3398)
+FileTime: 0:57.698(3394)
