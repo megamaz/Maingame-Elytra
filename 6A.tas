@@ -1,4 +1,4 @@
-RecordCount: 2040
+RecordCount: 2102
 
 console load 6
    1
@@ -69,6 +69,7 @@ AnalogMode,Precise
 
 #lvl_00
   19
+
   15,U,X
   15,U,C
   15,U,X
@@ -480,7 +481,7 @@ EndRepeat
    5,U,X
 #---------------
 #[b-03] Spinner Cycle
-   0
+   1
 #---------------
    1,R,J
    1,R,K
@@ -624,25 +625,50 @@ EndRepeat
    1,R
    1
    7,R
-  20,R,D,J
-  16,U,X
-   2,R,J
-  11,R
-   6,L,J
+   1,R,D,J
+   1,J,PE,F,45
+   1,PE,F,56.871
+   1,PE,F,55.1931
+   1,PE,F,53.4692
+   1,PE,F,51.6941
+   1,PE,F,49.8614
+   1,PE,F,47.9637
+   1,PE,F,45.9923
+   1,PE,F,43.9404
+   1,PE,F,41.7955
+   1,PE,F,39.5417
+   1,PE,F,37.1583
+   1,PE,F,34.6175
+   1,PE,F,31.8809
+   1,PE,F,28.8917
+   1,PE,F,25.5602
+   1,PE,F,21.7281
+   1,PE,F,17.0592
+   1,PE,F,10.4872
+   5,PE,F,0
+   2
+   1,R
+   1,L
+   1,R,J,G
+   7,R
+   1,R,J
+   1,R
   15,U,Z
    1,R,J,G
    1,L,J
-   1,R,J
-   4,R
    1
-   2,R
+   5,R,K,G
+   7,R
+
+#1:14.511(4383)
+
    4,R,Z
    1,R,J
-   6,R
-   1,R,J
+   7,R
   43
 
 #lvl_18b
+   1,R,J
    1,J,PE,F,90
   12,PE,F,90
 Repeat, 17
@@ -662,9 +688,9 @@ Repeat, 30
    1,PE,F,73.6861
    1,PE,F,90
 EndRepeat
-   1,PE,F,74.8
-   6,PE,F,90
-   1,R
+   2,PE,F,74.8
+   2,PE,F,90
+   4,R
    4,R,Z
    1,R,J
    6,R
@@ -685,7 +711,6 @@ Repeat, 35
 EndRepeat
    8,PE,F,96.9
   40
-
 
 #lvl_20
   13,PE,F,96.9
@@ -793,6 +818,7 @@ EndRepeat
    1,S
    1,D,J
   34
+
    2,R,J
    2,R
   10,R,D,X
@@ -1018,6 +1044,7 @@ EndStunPause
    1,S
    1,D,J
   34
+
    1,L,D,J
    6,R,U,X
   32
@@ -1552,6 +1579,7 @@ EndRepeat
    1,S
    1,D,J
   34
+
    4,Z
   13,R,J
    4,R
@@ -1937,4 +1965,4 @@ EndRepeat
    1,D,J
   18
 AnalogMode,Ignore
-ChapterTime: 4:13.878(14934)
+ChapterTime: 4:13.776(14928)
