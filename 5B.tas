@@ -1,4 +1,4 @@
-RecordCount: 2207
+RecordCount: 2224
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -473,7 +473,16 @@ EndRepeat
   18
 
 #lvl_c-00
- 206
+ 110
+   1,S
+   1,U
+   1
+   1,U
+   1
+   1,U,J
+
+SaveAndQuitReenter
+  36
    7,L,Z
    1,R,J
    8
@@ -947,4 +956,4 @@ EndRepeat
   13,R,U,Z
  135,R,D
 
-ChapterTime: 1:35.149(5597)
+ChapterTime: 1:34.146(5538)
