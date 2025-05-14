@@ -830,26 +830,27 @@ EndRepeat
    1,L,J
    1,J,PE,F,270
    1,PE,F,301.1537
-   4,PE,F,270
-   1,PE,F,300.28104
+   4,PE,F,270.001
+   1,PE,F,300.28103
   17,PE,F,269.99698
   14,L,D,X
    2,L,J,G
-   8,L
+   7,L
    1,L,J
-   3,PE,F,270
+   4,PE,F,270
   40
 
 #lvl_10-z
-   4,PE,F,270
-  12,L
+   6,PE,F,281
+  10,L
    1,L,J
    2,PE,F,90
 Repeat, 13
    1,ML,PE,F,0
    1,PE,F,270
 EndRepeat
-   1,ML,PE,F,0
+
+#1:11.332(4196)
 
 #1:11.349(4197)
 
@@ -2040,4 +2041,4 @@ EndRepeat
    1,D,J
   18
 
-ChapterTime: 2:52.618(10154)
+ChapterTime: 2:52.601(10153)
