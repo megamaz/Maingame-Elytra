@@ -89,8 +89,10 @@ EndRepeat
   40
 
 #lvl_s3
-  26,PE,F,270
-   7,R
+  10,PE,F,315
+   1,R
+   2,R,J,G
+  18,R
    2,PE,F,270
   11,PE,F,180
    1,L
@@ -99,7 +101,7 @@ EndRepeat
    9,R
 # any%-start
 # cycle
-  27
+  26
 #
    4,D,X
    1,L,J
@@ -125,6 +127,11 @@ EndRepeat
    5
    1,R,J
    5,R,U,Z
+
+#0:07.497(441)
+
+#0:07.548(444)
+
   40
 
 #lvl_0x-a
@@ -138,6 +145,7 @@ EndRepeat
    1,S
    1,D,J
   34
+
 # any%-end
    1,R,D,J
    1,J,PE,F,90
@@ -617,6 +625,7 @@ EndRepeat
    1,S
    1,D,J
   34
+
    9,R,J
   11,R,U,Z
   40
@@ -822,26 +831,30 @@ EndRepeat
    1,J,PE,F,270
    1,PE,F,301.1537
    4,PE,F,270
-   1,PE,F,300.281
-  17,PE,F,270
+   1,PE,F,300.28104
+  17,PE,F,269.99698
   14,L,D,X
    2,L,J,G
-   6,L
+   8,L
    1,L,J
-   2,L
-   1,L,J
-   2,PE,F,270
+   3,PE,F,270
   40
 
 #lvl_10-z
-   3,PE,F,270
-  13,L
+   4,PE,F,270
+  12,L
    1,L,J
    2,PE,F,90
-Repeat, 14
+Repeat, 13
    1,ML,PE,F,0
    1,PE,F,270
 EndRepeat
+   1,ML,PE,F,0
+
+#1:11.349(4197)
+
+#1:11.366(4198)
+
   40
 
 #lvl_10-y
@@ -1302,7 +1315,6 @@ EndRepeat
    4,Z
    1,L,J
   40,J
-
 #lvl_12-x
    4,L,J
    6,L,K,G
@@ -1418,6 +1430,7 @@ EndRepeat
    1,S
    1,D,J
   34
+
 #Elevator Shaft
    9,U,Z
    1,J
@@ -1590,6 +1603,7 @@ EndRepeat
    1,S
    1,D,J
   34
+
    6,L,J
    2,J
    1
@@ -2021,10 +2035,9 @@ EndRepeat
    1,R
    3,R,J
   40
-
 #lvl_roof07
    1,S
    1,D,J
   18
 
-ChapterTime: 2:52.686(10158)
+ChapterTime: 2:52.618(10154)
