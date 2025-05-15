@@ -1,4 +1,4 @@
-RecordCount: 3753
+RecordCount: 3754
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -6,8 +6,8 @@ Set,CommunalHelper.DeployElytra,E
 
 #Start
 console load 4
-console ch_toggle_elytra
    1
+console ch_toggle_elytra
 
 #Start
   69
