@@ -3,11 +3,10 @@ RecordCount: 8386
 console load 7
    1
 
-console ch_toggle_elytra
-
 Set,CommunalHelper.DeployElytra,E
 
 #Start
+console ch_toggle_elytra
 
 #lvl_a-00-intro
  246
