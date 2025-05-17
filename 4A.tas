@@ -3,13 +3,11 @@ RecordCount: 3754
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
 
-
-#Start
 console load 4
    1
-console ch_toggle_elytra
 
 #Start
+console ch_toggle_elytra
   69
 
 #lvl_a-00
