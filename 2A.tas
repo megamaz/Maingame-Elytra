@@ -1,4 +1,4 @@
-RecordCount: 9337
+RecordCount: 9363
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -70,12 +70,11 @@ EndRepeat
    8,PE,F,104
    1
    1,R,J
-  15,R,Z
-  11,R,D,X
+  15,R,X
+   8,R,Z
    1,L,J
-   3,L
+   5
    2
-   2,L
    1,L,J
   14,L,Z
    1,R,J
@@ -85,6 +84,7 @@ EndRepeat
    1,R,J
    3,PE,F,90
   40
+
 #450 (-2f) better speed
 
 #lvl_d7
@@ -281,6 +281,7 @@ EndRepeat
    1,S
    1,D,O
   34
+
    2,R,J
   11,R
    1,R,J
@@ -657,6 +658,8 @@ EndRepeat
   12,PE,F,90
    2,PE,F,76.6
   40
+
+#lvl_12
   22,PE,F,76.6
    2,R
    2,R,J
@@ -800,4 +803,4 @@ EndRepeat
   18
 #5051 (-7f)
 
-FileTime: 1:25.867(5051)
+FileTime: 1:25.816(5048)
