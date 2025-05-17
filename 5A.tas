@@ -6,9 +6,9 @@ Set,CommunalHelper.DeployElytra,E
 
 console load 5
    1
-console ch_toggle_elytra
 
 #Start
+console ch_toggle_elytra
  110
 
 #lvl_a-00b
