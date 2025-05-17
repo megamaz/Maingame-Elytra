@@ -3,11 +3,11 @@ RecordCount: 2102
 console load 6
    1
 
-console ch_toggle_elytra
 Set,CommunalHelper.DeployElytra,E
 AnalogMode, Ignore
 
 #Start
+console ch_toggle_elytra
  110
    1,S
    1,D,J
