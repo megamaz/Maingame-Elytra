@@ -1884,10 +1884,8 @@ EndRepeat
    1,PE,F,79.7648
    1,PE,F,78.7592
    1,PE,F,77.7521
-Repeat, 1
    1,PE,F,90
    1,PE,F,77.7736
-EndRepeat
    2,PE,F,90
    1,PE,F,80.78
    1,PE,F,79.7681
