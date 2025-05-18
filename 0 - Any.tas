@@ -1,0 +1,140 @@
+FileTime: 19:37.046(69238)
+#Start from Begin
+
+Read,StartFullGameFile
+
+Read,0 - Prologue,Start
+
+Read,LoadANoCollects,Prologue
+
+Read,1A,Start
+
+Read,LoadANoCollects
+
+Read,2A,Start
+
+Read,LoadA
+
+Read,3A,Start
+
+Read,LoadA
+
+Read,4A,Start
+
+Read,LoadANoCollects
+
+Read,5AC,Start,lvl_b-17
+
+#lvl_b-17
+   3,R,D
+   1,R,J
+   1,R
+  11,R,D,X
+   2,R,J,G
+  10,R
+   1,R,D,J
+   1,J,PE,F,90
+   1,PE,F,71.0824
+   1,PE,F,70.5493
+   1,PE,F,70.0138
+   1,PE,F,69.4757
+   1,PE,F,68.9349
+   1,PE,F,68.3914
+  40
+
+#lvl_b-22
+   1,PE,F,67.8687
+   1,PE,F,67.3193
+   1,ML,PE,F,66.7667
+   1,PE,F,270
+  15,D,X
+  15,D,C
+   4
+   4,Z
+   1,R,J
+   6,R
+  31,R,X
+   1,R,J,G
+  10,PE,F,90
+# lol
+  79,PE,F,281.5370
+# lmao, even
+   8,PE,F,90
+   1,R
+  15,D,X
+   9
+   9,L,Z
+   1,R,J
+   7,R
+   7,R,J
+  15,R,D,X
+  12,R,J
+   2,R
+   1,PE,F,270
+  51,PE,F,90
+   1,PE,F,271.3724
+   1,PE,F,272.7451
+   1,PE,F,274.1185
+   1,PE,F,275.493
+   1,PE,F,276.869
+Repeat,9
+   1,PE,F,278.2468
+   1,PE,F,270
+EndRepeat
+   1,PE,F,270
+   3,L
+   4,L,J
+   1,J,PE,F,270
+   1,PE,F,301.8657
+   3,PE,F,270
+ 257
+   1,J
+
+Read,LoadBFromA
+
+Read,5B,Start
+
+Read,LoadAFromB
+
+Read,6AC,Start,lvl_04e
+
+#lvl_04e
+   3,L,D,X
+   2,L,J
+   4,L
+   8,L,D,X
+   1,L,J,G
+   5,L
+   1,L,J
+   7,L
+   1,L,D
+   2,L,J
+   5,L
+   3,L,J
+  14,L,U,Z
+ 257
+   1,J
+
+Read,LoadBFromA
+
+Read,6B,Start
+
+Read,LoadAFromB,0,Summit
+#Summit
+  45
+Add 29
+   1,J
+  32
+Add 1
+
+Read,7A,Start
+
+Read,LoadCoreFromSummit,0,Epilogue
+
+Read,0 - Epilogue,Start
+ 300
+   1,J
+Add 58
+ 427
+
+Read,LoadJournal,0,Any%
