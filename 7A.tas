@@ -1,4 +1,4 @@
-RecordCount: 8677
+RecordCount: 9106
 
 console load 7
    1
@@ -1280,9 +1280,8 @@ EndRepeat
    1,PE,F,65.4622
    1,PE,F,63.8147
    1,PE,F,62.1368
-   1,PE,F,60.4254
    7,R,J
-  30,J,ML,PE,F,270
+  29,J,PE,F,270
   15,L,U,C
   15,L,X
   12,U,C
@@ -1316,44 +1315,54 @@ EndRepeat
    1,R,J
   18,PE,F,90
    1,R
-   6,R,D,J
-   6,PE,F,90
-   1,PE,F,0
-   1,PE,F,69.5938
-   1,PE,F,68.3204
-   6,R
-   1,R,D,J
-  12,J,PE,F,45
-   1,J,ML,PE,F,45
-   6,J,ML,PE,F,90
-   2,J,PE,F,90
-   2,R
+   6,R,J
+  10,J,PE,F,90
+   4,R
+   3,R,J
+   1,J,PE,F,90
+   1,PE,F,61.3108
+   1,PE,F,60.0157
+   1,PE,F,58.6975
+   1,PE,F,57.3542
+   1,PE,F,55.9837
+   1,PE,F,54.5834
+   1,PE,F,53.1505
+   1,PE,F,51.6821
+   1,PE,F,50.1745
+   1,PE,F,311.3762
+   1,PE,F,310.8
+  10,PE,F,270
   40
 
 #lvl_e-03
-  17,R,D,X
+   2,PE,F,270
+  15,R,D,X
+   1,J
    1,R,J
-   6,R,K,G
    5,R,D,X
-   2,R,J,G
-  12,R
-   7,R,J
-  12,R,D,X
+   4,R,J,G
+   4,R
+  13,PE,F,90
+   1,R
+   4,R,J
+   8,R,D,X
   40
 
 #lvl_e-04
-   3,R,D,X
-   7,R,J
-   5,R
-   1,R,K
-   5,R
-   4
-  14,R,U,X
-   1,L,J,G
-   1
-   6,R
-  11,R,D
-   4,R,J
+   7,R,D,X
+   1,R,D
+   1,R,J
+   1,J,PE,F,90
+   1,PE,F,68.7447
+   1,PE,F,68.0368
+Repeat, 8
+   1,PE,F,68.0368
+   1,PE,F,90
+EndRepeat
+   8,PE,F,90
+   7,R
+   5,R,D
+   2,R,J
    5,K
    1
    1,L,J,G
@@ -3063,4 +3072,4 @@ EndRepeat
    1,D,J
   18
 
-ChapterTime: 5:55.198(20894)
+ChapterTime: 5:54.943(20879)
