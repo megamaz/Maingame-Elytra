@@ -1,4 +1,4 @@
-RecordCount: 8386
+RecordCount: 8677
 
 console load 7
    1
@@ -25,6 +25,7 @@ Repeat, 30
    1,PE,F,61.2365
    1,PE,F,90
 EndRepeat
+
   10,PE,F,90
 Repeat, 6
    1,PE,F,76.4819
@@ -37,23 +38,44 @@ EndRepeat
   40
 
 #lvl_a-01
-   1,R
-  14,R,D,X
+  10,R,D,X
    1,R,J
-  14,R
-   1
-   1,R
-  15,R,U,X
-  13,R,U,C
+   9,R
+   1,PE,F,90
+   5,PE,F,90
+   1,PE,F,271.5378
+   1,PE,F,273.076
+   1,PE,F,274.615
+   1,PE,F,276.1551
+   1,PE,F,277.6967
+   1,PE,F,279.2402
+   1,PE,F,280.7861
+   1,PE,F,282.3346
+   1,PE,F,283.9279
+   1,PE,F,285.5359
+   1,PE,F,287.1606
+   1,PE,F,288.8043
+   1,PE,F,290.4692
+   1,PE,F,292.158
+   1,PE,F,293.8734
+   1,PE,F,295.6187
+   1,PE,F,297.3971
+   1,PE,F,299.2128
+   1,PE,F,301.0699
+   1,PE,F,302.9737
+   5
+  18,U,X
+   7,L
+  14,U,X
+   1,L,J
+   1,J,PE,F,90
+Repeat, 16
+   1,ML,PE,F,0
+   1,PE,F,270
+EndRepeat
    1,L
-   2,J,G
-   4,R,J
-  15,U,X
-   5,L
-   1
-   1,L
-  15,U,X
-  37,R,J
+   1,R,J,G
+   7,R
    4,R,Z
    1,R,J
    2,R
@@ -870,14 +892,17 @@ EndRepeat
    1,R,J
    7,R
    1,R,J
-   1,J,PE,F,270
-   9,PE,F,270
-Repeat, 4
-   1,PE,F,270
-   1,PE,F,0
-EndRepeat
+   9,J,PE,F,270
+   1,PE,F,326.3443
+   7,PE,F,270
    7,L,J
-  29,PE,F,90
+   2,PE,F,90
+Repeat, 2
+   1,PE,F,0
+   1,PE,F,90
+EndRepeat
+  22,PE,F,90
+   1,R
   15,R,U,Z
   10,U,X
   40
@@ -3038,4 +3063,4 @@ EndRepeat
    1,D,J
   18
 
-ChapterTime: 5:55.249(20897)
+ChapterTime: 5:55.198(20894)
