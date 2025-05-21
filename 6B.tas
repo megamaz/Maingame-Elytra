@@ -1,4 +1,4 @@
-RecordCount: 1371
+RecordCount: 3484
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -207,81 +207,96 @@ AnalogMode, Ignore
   17,L,D
    1,R,D
   12,L,D
-  16,L
-  21,R
-  15,U,X
-   2
-  15,R,J
+  14,L
+   2,L,D
+  18,R
+  10,L
+   5,R
+  15,R,Z
    9,R
-   3,R,J
-  33,R
-   2,R,D
-  28,R
-  28,PE,F,90
-   8,PE,F,180
-   1,PE,F,108.1
+   6,L
+   6,L
+  11,L
+  22,PE,F,90
+Repeat, 7
+   1,PE,F,78.45
+   1,PE,F,90
+EndRepeat
+   1,PE,F,80.6
+  21,PE,F,90
    1,R
-   4,R,Z
+   6,L,Z
    1,R,J
-   4,R
+   6,R
+   1,R,J
+   1,J,PE,F,90
   40
 
 #lvl_a-05
-   2,R
-   1,R,J
-   1,J,PE,F,90
-   1,PE,F,57.7673
-   1,PE,F,56.1692
-  35,PE,F,90
-   1,PE,F,88.6522
-   1,PE,F,87.3040
-   2,R
+   8,PE,F,90
+   1,PE,F,69.6832
+   2,PE,F,90.0000
+   1,PE,F,71.1014
+   2,PE,F,90.0000
+   1,PE,F,72.5125
+   2,PE,F,90.0000
+   1,PE,F,73.9172
+   2,PE,F,90.0000
+   1,PE,F,75.3162
+   1,PE,F,73.9134
+   1,PE,F,90.0000
+   1,PE,F,73.9134
+   1,PE,F,72.4920
+   1,PE,F,90.0000
+   1,PE,F,72.4920
+   1,PE,F,71.0499
+   1,PE,F,90.0000
+   1,PE,F,71.0499
+   1,PE,F,69.5847
+   2,PE,F,90
    5,R,J
-  17,PE,F,90
-Repeat, 10
-   1,PE,F,83.2092
+  15,R,D,X
+   1,R,D
+   1,PE,F,90
+   1,PE,F,79.6109
+   1,PE,F,0
+Repeat, 33
+   1,PE,F,77.0068
    1,PE,F,90
 EndRepeat
-   1,PE,F,83.2168
-   1,PE,F,81.9079
-   1,PE,F,80.5970
-   1,PE,F,79.2840
-   1,PE,F,77.9683
-   1,PE,F,76.6166
-   1,PE,F,75.2540
-   1,PE,F,73.8791
-   1,PE,F,72.4904
-   1,PE,F,71.1041
-Repeat, 17
-   1,PE,F,69.6871
+   1,PE,F,77.0414
+   1,PE,F,75.6234
+   1,PE,F,74.1924
+   1,PE,F,72.7468
+   1,PE,F,71.2850
+   1,PE,F,69.8051
+   1,PE,F,68.3052
+Repeat, 3
    1,PE,F,90
+   1,PE,F,68.3052
 EndRepeat
-   5,PE,F,90
-   1,PE,F,79.4
-   1,R
-   1,J
-   2,D
-   1,R,D
-   7,D
-  13,R,D
-   4,R
-   1,R,D
-  15,R,U,Z
-   2,R
-   1
+   6,PE,F,180
+   2,PE,F,77.36
+   5,PE,F,0
+   1,PE,F,70.8
+   1,PE,F,90
+   3,PE,F,180
+   9,PE,F,78.463
+   1,PE,F,77.6
+   9,PE,F,0
+   1,L,K,G
    1,L,J,G
-   2,R,J
-  19,R,K
-   1,R
-   2
+   1,K,G
+   1,R,K
+   1,L,K
    1,J,G
-   2
-#a-06 Spinner Cycle
-   1
-#------------------
-   1,L
-   4
-   4,Z
+  19,R,J
+   1,R
+   1,R,J
+   1,K,G
+   3
+   4,L
+   4,R,Z
    1,R,J
    6,R,K,G
    7,R
@@ -425,6 +440,9 @@ EndRepeat
    8,U,X
    3,L,J
   11
+# spinner cycle
+   0
+#
   15,U,Z
    1,R,J,G
    4,R
@@ -554,66 +572,69 @@ EndRepeat
    2,R,J
    9,R
   12,PE,F,270
-   1,PE,F,230
-  23,PE,F,180
+   1,PE,F,180
+  28,PE,F,270
+   3,L
+   1,L,J
+   1,L,K
+   1,L,J
+   1,L,K
+   1,J,PE,F,90
+   1,PE,F,90
+   8,R
+   2,R,D
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
    2,R
-  15,R,Z
+   7,PE,F,90
    1,R,J
-   1,R,K
+   5,R,D
    1,R,J
-   1,R,K
-   1,R,J
-   1,R,K
-   1,R,J
-   1,R,K
-   1,R,J
-   1,R,K
-   3,R
-   1,R,J,G
-   4,R
+   1,PE,F,90
   40
 
 #lvl_b-03
-  27,R,D
-   2,D
-  15,D,X
-   9,D
-   3,L,D
-   2,D
+   7,PE,F,90
+   1,PE,F,74.8267
+   4,PE,F,90
+   2,R,J
+   5,R
+   1,PE,F,270
+  16,PE,F,180
+StunPause
+   4,PE,F,180
+EndStunPause
+   3,PE,F,180
+StunPause
+   4,PE,F,180
+EndStunPause
+   9,PE,F,180
    1,R,D
-  40,R,D
-  15,L,D
+StunPause
    1,R,D
-   1,L,D
-  33,R,D
-  15,R,X
-  14,D
-  31,R,D
-   2,D
-   7,R
-  25,L
-  15,L,D,X
-   1,L,D
-  19,R,D
-   7,L,D
+EndStunPause
+   2,R,D
+StunPause
    1,R,D
-   3,L,D
-   7,R,D
-   1,R
-   2,D
-   5,L,Z
+EndStunPause
+  25,R,D
+  20,D
+  10,L,Z
    1,R,J
-   1,R,D
-   2,L,D
-   1,R,U
-   1,R,K
-   1,R,J
+   1,L
+   8,R
    1,R,K
    1,R,J
    1,R,K
   15,R,Z
-   9,R
-   9,R,V
+   8,R,D
+  13,R,V
    1,R,J
    1,R,K
    1,R,J
@@ -645,42 +666,55 @@ EndRepeat
    1,L,D
    1,D
   15,L,X
-   9,D
-   1,L,D
-  31,R,D
-   8,R,Z
-   1,R,J
-   1,R,K
-   1,R,J
-   1,R,K
-   1,R,J
-   1,R,K
-   9,R,J
-   5,R
-   1,R,J
+  10,D
+  23,L,D
+# take slightly longer for spinner cycle
+   7,R,D
+#
    1,R
+  14,L,Z
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   2,R,J
+   9,R,D,X
+   1,R,K,G
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   5,R
+   2,R,J
+   2,R
   40
 
 #lvl_b-05
-  18,R,D
-  41,D
-   5,L
-   1,L,D
-  18,L,Z
-   7,R,D,C
-  18,R,D
-  10,D
-   6,L,D
-   8,R
-   1,J
-   1,R,K,G
-  30,L,D
-  17,D
-   3,R,D
-  80,R,D,X
+   2,L
+   6,R,J
    4,R
-   3
-   4,Z
+   1,L
+   2,R
+   1,PE,F,270
+   6,PE,F,180
+StunPause
+   3,PE,F,180
+   3,PE,F,270
+EndStunPause
+   9,PE,F,270
+StunPause
+   1,PE,F,270
+EndStunPause
+   2,PE,F,180
+  59,R,D
+# spinner cycle
+   2
+#
+   5,R,Z
    1,R,J
    1,R,K
    1,R,J
@@ -758,122 +792,122 @@ AnalogMode, Ignore
   15,R,D,X
    7,R,D
    1,L,D
-  10,R,D
-  14,L,D
-  15,R,D
-   4,D
+   9,R,D
+  42,L,D
+  15,L,Z
+   1,L,J
+   1,L,K
+   1,L,J
+   1,L,K
+   1,L,J
+   1,L,K
+   1,L,J
+  11,L,D,X
+   1,R,J
    1,R
-   1,R,D
-   1,R
-   3,R,D
-   1,R
-   2,R,D
+   1,R,K
    1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+  15,R
    1,R,K
    1,R,J
    1,R,K
    1,R,J
    1,R,K
    1,R,J
-   1,R,K
-   1,R,J
-   1,R,K
-   3,R
-   4,R,J,G
-   1,R
-   2
+   2,R,K
+   5,R,D,X
+   4,R,K,G
+   4,R
   40
 
 #lvl_b-08
-   2,R
-  43,L,D
-   2,D
-   3
-  18,R,D,X
-  16,D
-   1
-  21,L,Z
-   4
-  23,L,C
-  17,R,D
-  13,L,D
-   1,D
-   2,L,D
-  25,R,D
-  19,R,X
-  23,R,C
-  15,R,X
-  15,R
-  13,R,D
-  15,L,D
-  15,D
-  15,L,X
-  12
-   7,L,D
-  15,L,X
-  17,R,D
-   8,L,D
-   1,L
-   4,L,D
-   3,R,D
-   1,R
-   1,R,D
-   1,L
-   2,R,D
+   1,PE,F,90
+   1,PE,F,76.3
    3,R
-   2,L
-   4,Z
+   1,R,J
+   7,R
+   3,R,D
+   7,PE,F,270
+   6,PE,F,180
+StunPause
+   4,PE,F,180
+EndStunPause
+   5,PE,F,180
+StunPause
+   1,PE,F,180
+EndStunPause
+  10,PE,F,180
+  11,MR,PE,F,180
+   1,R,D
+   2,D
+  19,R,D
+   1,R
+   5,L,Z
+   1,R,J
+   1,L
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+  14,R
+   1,L
    1,R,J
    1,R,K
    1,R,J
    1,R,K
    1,R,J
    1,R,K
-   1,R,J
-   1,R,K
-   1,R,J
-   1,R,K
-   1,R,J
-   5,R
-   6,R,D,X
-   1,R,J,G
+   2,R,J
+   1,R
+   5,R,D,X
+   1,R,K,G
    6,R
   40
 
 #lvl_b-10
-   1
-   4,R
-   1,R,J
-   3,J
-   5
-   1,J
-   1
-   1,J
+   1,R
+   4,L
+   1,D,J
+   1,J,PE,F,90
+   1,PE,F,68.6979
+   1,PE,F,67.9864
+   1,PE,F,67.2699
+   1,PE,F,66.5482
+   1,PE,F,65.8209
    3
-   3,R
-   1
-  16,R,U,Z
+   1,PE,F,65.0879
+   1,PE,F,65.46
+   2,PE,F,90
+   3,PE,F,180
+   2
+  11,J
   15,R,D,X
-  21,R,C
-  14,R,X
-  27,R,U
-  43,F,83.12
-  57,F,89.7
-#Rock Bottom
+   1,R
+   3
+   1,R
+  15,R,U,X
+  37,R,D
+  64,F,92.746
   14,R,Z
-   8,R,J
-  17,R,D,X
-   1,R,J
+   6,R,J
+   2,R
   15,R,D,X
+   2,R,J
+  15,R,D,X
+   1,R,D
    1,R,J
    1,R,K
    1,R,J
-   3,R,K
-   7,R,J,G
+   1,R,K
+   1,R,J
+   9,R,K,G
   40
 
 #lvl_c-00
-   4,R,J
+   3,R,K,G
   14,R,U,X
   39,L
    1,J
@@ -892,18 +926,41 @@ AnalogMode, Ignore
   21,R,D
    1,MD,PE,F,90
   22,PE,F,90
-Repeat, 3
+   3,PE,F,90
    1,PE,F,180
+   7,R
+   1,PE,F,90
+Repeat, 7
+   1,PE,F,0
    1,PE,F,90
 EndRepeat
-   1,PE,F,90
-  26,R
-  15,R,X
+  15,PE,F,90
   39,L
    1,PE,F,90
-  67,PE,F,105.7
-  12,R
-   6,R,U,X
+  34,PE,F,105.7
+  17,PE,F,90
+   1,PE,F,87.4454
+   1,PE,F,84.8891
+   1,PE,F,82.3293
+   1,PE,F,90.0000
+   1,PE,F,82.3455
+   1,PE,F,79.7751
+   1,PE,F,77.1977
+   1,PE,F,90.0000
+   1,PE,F,77.2508
+   1,PE,F,74.5749
+   1,PE,F,71.8528
+   1,PE,F,90.0000
+   1,PE,F,71.8528
+   1,PE,F,69.0600
+   1,PE,F,66.1978
+   1,PE,F,90.0000
+   1,PE,F,66.1978
+   1,PE,F,63.2326
+   1,PE,F,60.1652
+   1,PE,F,90.0000
+   1,PE,F,60.1652
+   3,PE,F,90
   44,R
   15,R,X
   26,R,D
@@ -1153,50 +1210,51 @@ EndStunPause
    3,R
    1,L
    1,J,G
-   1,K,G
-   1,J,G
-  16,R,D,X
-   4,R
+   1,L,K,G
+   2,L,J,G
+  15,R,D,X
+   1,L,D,X
+   1,L,D
    1,R,D
-  18,R
-  18,R,U,X
-   5,R
-   2
-  11,R
-   2
-   1,R
-   7,R,K
+   3,R
+  24,PE,F,0
+   1,PE,F,78.2291
+   1,PE,F,77.5103
+   1,PE,F,76.7886
+   1,PE,F,76.0638
+   1,PE,F,75.3358
+   1,PE,F,74.6043
+   1,PE,F,73.8691
+   1,PE,F,73.1300
+   1,PE,F,72.3868
+   1,PE,F,71.6392
+   1,PE,F,70.8870
+   1,PE,F,71
+   2,PE,F,90
+   2,PE,F,180
   15,U,X
-  18,R,Z
+  15,R,Z
+   1,L
+   3
+   1,L
   18,U,X
-  14,U,V
+  14,U,Z
   40
 
 #lvl_d-01
   19,R,J
-   8,R,Z
+   9,R,Z
    1,R,J
-   1,R
-   1,R,J
-   7,R
-   7,R,Z
-   1,L,J
-   4
-   3,L
-  14,L,V
-   1,R,J
-   6,R,D,X
-   1,R,K,G
-   1,R
-   2
-   1,R
-   1
-   6,R,D
-   7,R,D,J
-  15,R,D,X
-   4,R,D,J
    6,R
-  10,R,J
+   9,R,J
+  15,R,D,X
+   1,R
+   1,R,D,J
+   8,PE,F,90
+   1,PE,F,71.9510
+   5,PE,F,90
+   2,PE,F,78.45
+   9,PE,F,90
   42,L
   23,G
    8,D,G
@@ -1209,13 +1267,14 @@ EndStunPause
    1,L
    9,K,G
   37,L
-   3
+   2
   16,D,X
    2,R
+   2,R
    1
-  26,R
-  14,R,X
-   1,R,J,G
+  27,R
+  12,R,X
+   2,R,J,G
   15,R
   44,R
   19,R,U,X
@@ -1284,12 +1343,12 @@ AnalogMode,Precise
   14,R,U,X
   33,R,D
   35,D
-   2
-  42,L
-  14,L,Z
-   2,L,J
-   9,L,U,X
-  17,L,J,G
+   5,D
+  47,PE,F,270
+   1,L
+   6,L,J
+   1,J,PE,F,270
+  10,PE,F,270
   56,R,D
   19,L,D
    3,D
@@ -1327,11 +1386,12 @@ AnalogMode,Precise
    5,L,D
    1,L
    2,L,D
-  29,L
+  26,L
+   5,L,J
    7,D,X
   17,L
   11,L,D,X
-  27,L,D
+  29,L,D
    1,L,J,G
    1,L
   42,D
@@ -1464,4 +1524,4 @@ EndRepeat
    5,R,Z
 #6BG
  134,R
-ChapterTime: 3:05.011(10883)
+ChapterTime: 2:56.596(10388)
