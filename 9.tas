@@ -1,4 +1,4 @@
-RecordCount: 18994
+RecordCount: 19393
 
 console load 10
    1
@@ -11,6 +11,10 @@ console ch_toggle_elytra
 
 #c-00 cycle 0-2
    2
+#--------------
+
+#stinky
+   3
 #--------------
 
 #lvl_intro-00-past
@@ -800,7 +804,7 @@ EndRepeat
   15,U,X
   12,R,U,C
 # Spinner cycle e-07
-   1
+   2
 #
 
   45,U,X
@@ -1140,7 +1144,8 @@ EndRepeat
    1,D
    2,R,D,J
    1,J
-   6,R,J
+   5,R,J
+   1,J
   14,R,U,X
    2,R,J,G
   14,R,D,X
@@ -1153,67 +1158,72 @@ EndRepeat
    1,R,J,G
    3,R
   15,R,D,X
-   1,R,J
-   2,R,K,G
-   4,R
+   5,R,D,J
+   1,PE,F,90
+   1,PE,F,74
   40
 
 #lvl_e-05b
-   2,R
-  14,R,D,X
-   2,R,J,G
-   6,R,D,X
+   1,PE,F,66
+   1,PE,F,73.1526
+   1,PE,F,72.7172
+   1,PE,F,72.2802
+   1,PE,F,71.8418
+   1,PE,F,71.4017
+   1,PE,F,70.9601
+   1,PE,F,70.5168
+   1,PE,F,70.0718
+   8,PE,F,90
   40
 
 #lvl_e-05c
-   4,R,D,X
-   1,R,J
-  11
-   1,R
-  15,D,X
-   1,R,D
+  10,PE,F,90
+  30,ML,PE,F,90
+   1,ML,PE,F,89.5802
+   1,ML,PE,F,89.1605
+   1,ML,PE,F,88.7407
+   1,ML,PE,F,88.3209
+   1,ML,PE,F,87.9010
+   1,ML,PE,F,87.4811
+   1,ML,PE,F,87.0612
+   1,ML,PE,F,86.6411
+   9,R,U,Z
    1,L,J,G
-   1,K,G
-   1,J,G
-   1,PE,F,90
-   1,ML,PE,F,69.9754
-   1,ML,PE,F,69.2654
-   1,ML,PE,F,68.5506
-   1,ML,PE,F,67.8309
-   1,ML,PE,F,67.1060
-   1,ML,PE,F,66.3758
-   1,ML,PE,F,65.6398
-   1,ML,PE,F,64.8979
-   1,ML,PE,F,64.1497
-   1,ML,PE,F,63.3950
-   1,ML,PE,F,62.6335
-   1,ML,PE,F,62.31
-  23,ML,PE,F,90
-   1,R
-   1,R,D,J
+   6,R,J
+   1,J,PE,F,90
+   1,ML,PE,F,71.8511
+   1,ML,PE,F,71.3748
+   1,ML,PE,F,70.8966
+   1,ML,PE,F,70.4164
+   1,ML,PE,F,69.9342
+   1,ML,PE,F,69.4500
+   1,ML,PE,F,69.4
+   3,ML,PE,F,90
+   2,PE,F,90
   40
+
 #lvl_e-06
-   8,R,D,X
+   7,R,D,X
   13,G
    1,R,J
-   3,R
-  14,PE,F,90
+   2,R
+   3
+   4,PE,F,90
   15,R,Z
    1,R
   31,L
-   3,L
-   9,L,Z
-   6,L
-  13,L,D,X
+  14,L
+  15,L,D,X
+   1,L,D
+  10,L,U,C
    5,L
-  12,L,D,X
-   3,L
-   9,L,D,X
-   6,L
   13,L,D,X
    4,L
   11,L,D,X
-   4,R,J,G
+   4,L
+  11,L,D,X
+   1,R,J,G
+   3,R
   13,R,D,X
    2,R,J,G
    1,R,K,G
@@ -1228,7 +1238,7 @@ EndRepeat
    1,PE,F,67.6087
    1,PE,F,66.9525
    1,PE,F,66.2917
-   1,PE,F,65.71
+   1,PE,F,65.63
   12,PE,F,90
    1,R
    1,L
@@ -1240,7 +1250,7 @@ EndRepeat
 #lvl_e-07
    1,PE,F,71.1105
    1,PE,F,70.5795
-   1,PE,F,70.9503
+   1,PE,F,70.9494
    7,PE,F,90
    1,PE,F,74.1131
    1,PE,F,74.605
@@ -3758,7 +3768,7 @@ EndRepeat
    4,L,D
    3,D
 # Lightning cycle
-   0
+   6
 #
    7,R,D,C
    1,L,J
