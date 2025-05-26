@@ -1,4 +1,4 @@
-RecordCount: 10200
+RecordCount: 10713
 
 console load 7
    1
@@ -25,7 +25,6 @@ Repeat, 30
    1,PE,F,61.2365
    1,PE,F,90
 EndRepeat
-
   10,PE,F,90
 Repeat, 6
    1,PE,F,76.4819
@@ -907,27 +906,26 @@ EndRepeat
   40
 
 #lvl_d-01
-   2,L,J,G
-   9,R
-   5,R,D,X
+   1,L,J,G
+   1,K
+   3,R
+   3
+   1,J
+   2
+   5,Z
    1,R,J
-   7,R
-   1,R,D,J
+   6,R
+   2,R,D,J
+   8,PE,F,90
+   1,PE,F,70.793
+Repeat, 7
    1,PE,F,90
-   1,PE,F,64
-   1,PE,F,90
-   1,PE,F,64
-   7,PE,F,115
-   1,PE,F,74.6976
-   1,PE,F,73.1931
-   1,PE,F,71.6727
-Repeat, 8
-   1,PE,F,90
-   1,PE,F,71.6727
+   1,PE,F,70.793
 EndRepeat
+   5,PE,F,90
+   1,PE,F,78.4
    1,PE,F,90
-   1,PE,F,80
-   4,R
+   3,R
    6,R,D,X
    1,R,J
   12,R
@@ -1316,6 +1314,7 @@ EndRepeat
   40
 
 #lvl_e-02
+
    2,L
    9,R,J
    2,R
@@ -1682,7 +1681,7 @@ EndRepeat
    1,PE,F,58.9913
    1,PE,F,57.661
    1,PE,F,56.3041
-   1,PE,F,54.9184
+   1,ML,PE,F,54.9184
    1,ML,PE,F,53.5012
    5,ML,PE,F,90
   40
@@ -3105,4 +3104,4 @@ EndRepeat
    1,D,J
   18
 
-ChapterTime: 5:52.104(20712)
+ChapterTime: 5:52.053(20709)
