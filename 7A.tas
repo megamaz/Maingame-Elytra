@@ -1,4 +1,4 @@
-RecordCount: 11280
+RecordCount: 11583
 
 console load 7
    1
@@ -2008,29 +2008,37 @@ EndRepeat
    1,L,D
    6,R,D
   15,L,D
-   4,Z
+   2,L,J
+  15,D,X
+# wait key cycle
+  36
+#
+  14,R,D,X
    1,L,J
-  18,L
-  16,L,X
-  15,L,U,C
-   2,L
-  13,L,D,X
-   3,R,J
-  22,R,D,X
-   9,R,J
-  14,R,U,X
-   2,R,J,G
-   9,R,D,X
+  14,L,Z
+   1,R,J
+   5,R,D,X
+   1,R,J,G
+   1,J,PE,F,90
+   1,PE,F,59.6956
+   1,PE,F,58.2647
+   1,PE,F,56.8037
+   1,PE,F,55.3098
+   1,PE,F,54.01
+  18,PE,F,270
+   1,R
+   1,R,J
+   6,R,D,X
    1,R,J
    5,R
   40
 
 #lvl_f-08
    1,R
-   1,R,J
-   2,R
+   2,R,J
   15,R,D,X
-  23,PE,F,40
+   7,R,D
+  14,R,C
   21,R,X
   15,U,C
    2
@@ -3069,6 +3077,7 @@ EndRepeat
 Repeat, 10
    2,PE,F,0
    3,PE,F,90
+
 EndRepeat
    1,R
   13,R,Z
@@ -3076,4 +3085,4 @@ EndRepeat
    1,D,J
   18
 
-ChapterTime: 5:51.662(20686)
+ChapterTime: 5:51.543(20679)
