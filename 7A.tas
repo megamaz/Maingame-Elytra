@@ -1,4 +1,4 @@
-RecordCount: 11583
+RecordCount: 11953
 
 console load 7
    1
@@ -2039,6 +2039,9 @@ EndRepeat
   15,R,D,X
    7,R,D
   14,R,C
+# spinner cycle
+   1
+#
   21,R,X
   15,U,C
    2
@@ -2057,35 +2060,37 @@ EndRepeat
   12,J
    5,K,G
    2,L,K
-   2,R,K
-   5,L,D,X
-   1,R,J
-   1,R,K
-   3,R,J,G
-   5,R
-   2,R,J
-   4,R
-  10,R,D
-   9,D
+   3,L,K
+   4,L
+   6,L,D,X
+   1,J
+   1,L,K,G
+   5,R,J,G
+   2,R
+  15,R,D,X
+   1,MD,PE,F,90
+   1,PE,F,273.2273
+   1,PE,F,273.6458
+   1,PE,F,274.0646
+   1,PE,F,274.4837
+   1,PE,F,274.9031
+   5,R,D,X
   43
 
 #lvl_f-09
-   4,D
-   1,R,D,J
-   3,J
    5
-   8,PE,F,78.4629
-   1,J
-   2
-   1,J
-   5
-  15,R,Z
-  24,R
-  24,R,U,X
-  15,R,C
-  10,PE,F,90
-  14,PE,F,115
-  27,PE,F,90
+StunPause
+   3
+EndStunPause
+   8,R,D
+   9,R,Z
+  36,R,U,X
+  15,R,D,C
+   1,MD,PE,F,90
+   1,PE,F,180
+  26,PE,F,90
+   1,PE,F,88.0504
+   1,PE,F,86.0996
    1,R
    4,R,Z
    1,R,J
@@ -3077,7 +3082,6 @@ EndRepeat
 Repeat, 10
    2,PE,F,0
    3,PE,F,90
-
 EndRepeat
    1,R
   13,R,Z
@@ -3085,4 +3089,4 @@ EndRepeat
    1,D,J
   18
 
-ChapterTime: 5:51.543(20679)
+ChapterTime: 5:51.033(20649)
