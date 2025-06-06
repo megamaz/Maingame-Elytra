@@ -143,40 +143,39 @@ EndRepeat
    3
    5,L,X
    3,L,J,G
-  13,L
-  17
-   6,R,Z
+  10,L
+  22
+   5,R,Z
    1,L,J
-   3,L
-   3,L,J
-   3,L
+   4,L
+   1,L,J
+   4
    4,R,Z
    1,R,J
-   3,R
-   3
+   3,R,D
+   1,D
    1,R,D
    1,R,J
    1,R
-   1,R
-   2,R,J
-   1,L,K,G
-   1,R,K
-   1,K,PE,F,270
-   4,PE,F,270
-Repeat, 2
-   1,MR,PE,F,0
-   1,PE,F,90
+   1
+   1,R,J,G
+   1,L,J,G
+   2,K,G
+   2,K,PE,F,270
+Repeat, 4
+   1,PE,F,0
+   1,PE,F,270
 EndRepeat
-   1,MR,PE,F,0
-StunPause
-   1,PE,F,90
-EndStunPause
+   1,PE,F,0
+   1,S
+   1,J
+   9
 Repeat, 8
-   1,MR,PE,F,0
    1,PE,F,90
+   1,MR,PE,F,0
 EndRepeat
    1,MR,PE,F,0
-  10,R
+   9,R
    9,L
   40
 
@@ -305,4 +304,4 @@ EndRepeat
    1,S
    1,U,O
    1,J
-FileTime: 0:48.399(2847)
+FileTime: 0:48.365(2845)
