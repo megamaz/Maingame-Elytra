@@ -1,4 +1,4 @@
-RecordCount: 319
+RecordCount: 466
 
 console load 6
    1
@@ -15,7 +15,7 @@ console ch_toggle_elytra
 
 #lvl_start
 # Spinner cycle
-   2
+   0
 #
    4,D,X
    1,R,J
@@ -130,78 +130,59 @@ EndRepeat
   10,F,25
   31,F,26.977
    8,F,18
-   5,L,U,X
-   1,L
-  12,L,J,G
-   6,L,K,G
-   2,L
-   4
-   1,R,J
-   1,J
-  16
-   1,R
-   4,X
-   1,D,X
-   3,R
+   7,F,2
+   7,F,355
+   5,L,D,X
    6,L
-   3,R
-   7,D
-   1,R,D
-   1,L,J,G
-   1
-   2,R
-  20,L,U,G
-   1,G
-StunPause
-   1,U,G
-  10,J,G
-   1
-SkipInput,3,1
-  10,R,U,Z
-   1,J,G
-   1,L,J
-   1
-   2,R,J,G
-   1,L,J
-   4,J
-   2
+   6
    1,L
-   2
-   1,R
-   1
-   1,D,J
-   1,R,J
-   2,L,J
-   2
-SkipInput,3,1
-   8,L,X
-EndStunPause
+   5
+  11,R
    2,L
-   1,R,J
-   4,J
-  15,D,X
-   1,R,J
+   1,L,J,G
    3
+   5,L,X
+   3,L,J,G
+  13,L
+  17
+   6,R,Z
+   1,L,J
+   3,L
+   3,L,J
+   3,L
+   4,R,Z
+   1,R,J
+   3,R
+   3
+   1,R,D
+   1,R,J
    1,R
-   8
    1,R
-   1
-   1,R
-   1,L
-   6,G
-   5,U,G
-   2,J
-   5,U,X
-  20,L,J
+   2,R,J
    1,L,K,G
-   7
-  12,U,X
-   1,J
+   1,R,K
+   1,K,PE,F,270
+   4,PE,F,270
+Repeat, 2
+   1,MR,PE,F,0
+   1,PE,F,90
+EndRepeat
+   1,MR,PE,F,0
+StunPause
+   1,PE,F,90
+EndStunPause
+Repeat, 8
+   1,MR,PE,F,0
+   1,PE,F,90
+EndRepeat
+   1,MR,PE,F,0
+  10,R
+   9,L
   40
 
 #lvl_02b
-
   11,L
+   1,L,J,G
   16,L,X
   15,L,C
   36,L
@@ -324,4 +305,4 @@ EndRepeat
    1,S
    1,U,O
    1,J
-FileTime: 0:53.856(3168)
+FileTime: 0:48.399(2847)
