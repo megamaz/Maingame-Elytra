@@ -1,4 +1,4 @@
-RecordCount: 2102
+RecordCount: 2104
 
 console load 6
    1
@@ -103,7 +103,7 @@ EndRepeat
 SaveAndQuitReenter
   36
 # [02] Spinner Cycle
-   2
+   0
 #-------------------
   10,R,Z
    2,R,J
@@ -136,57 +136,59 @@ SaveAndQuitReenter
   10,F,25
   31,F,26.977
    8,F,18
-   5,L,U,X
-   1,L
-  12,L,J,G
-   6,L,K,G
-   2,L
-   4
-   1,R,J
-   1,J
-   7,L
-   7
-   2,L
-   5,D,X
-   1,L,J
-  13
-   2,R
-   6
-   1,L,D
-  27,L,U,G
-   6
-StunPause
-   6
-   4,L
-   3,D
-  19
-   2,L
-SkipInput,3,1
-   7,R,Z
-EndStunPause
-   1,L,J
+   7,F,2
+   7,F,355
+   5,L,D,X
    6,L
-   2,R
+   6
+   1,L
+   5
+  11,R
+   2,L
+   1,L,J,G
+   3
+   5,L,X
+   3,L,J,G
+  13,L
+  17
+   6,R,Z
    1,L,J
-   1,K
-   1,J
-   8,R,J
-   8,R
-   8
-   7,L,G
-   1,U,G
-   1
-   1,J
-  10,U,Z
-   1,S,N
-  10,O
-   5,U,Z
-  25,L
-  13,U,X
+   3,L
+   3,L,J
+   3,L
+   4,R,Z
+   1,R,J
+   3,R
+   3
+   1,R,D
+   1,R,J
+   1,R
+   1,R
+   2,R,J
+   1,L,K,G
+   1,R,K
+   1,K,PE,F,270
+   4,PE,F,270
+Repeat, 2
+   1,MR,PE,F,0
+   1,PE,F,90
+EndRepeat
+   1,MR,PE,F,0
+StunPause
+   1,PE,F,90
+EndStunPause
+Repeat, 8
+   1,MR,PE,F,0
+   1,PE,F,90
+EndRepeat
+   1,MR,PE,F,0
+  10,R
+   9,L
   40
 
 #lvl_02b
   11,L
+   1,L,J,G
   16,L,X
   15,L,C
   36,L
@@ -248,7 +250,7 @@ AnalogMode,Ignore
    1,R
 #---------------
 #[06] Spinner Cycle
-   0,J
+   2,J
 #---------------
    4,Z
    1,R,J
@@ -1965,4 +1967,4 @@ EndRepeat
    1,D,J
   18
 AnalogMode,Ignore
-ChapterTime: 4:13.776(14928)
+ChapterTime: 4:09.016(14648)
