@@ -1,4 +1,4 @@
-RecordCount: 2191
+RecordCount: 2508
 
 console load 6
    1
@@ -27,7 +27,7 @@ console ch_toggle_elytra
    1,R,J
   10,U,Z
   27,L,U
-AnalogMode,Precise
+AnalogMode, Precise
   77,F,341.34
    1,F,341.37
   86,F,346.408
@@ -62,6 +62,7 @@ AnalogMode,Precise
   23,F,17.523
    1,F,16.799
  156,F,0
+AnalogMode, Ignore
   14,U,X
    1,S
    1,D,J
@@ -69,7 +70,6 @@ AnalogMode,Precise
 
 #lvl_00
   19
-
   15,U,X
   15,U,C
   15,U,X
@@ -113,6 +113,7 @@ SaveAndQuitReenter
   10,U,Z
   26
    1,R,U
+AnalogMode, Precise
    7,F,18.058
   45,F,356.87
    2,F,0
@@ -137,6 +138,7 @@ SaveAndQuitReenter
    8,F,18
    7,F,2
    7,F,355
+AnalogMode, Ignore
    5,L,D,X
    6,L
    6
@@ -239,7 +241,6 @@ EndRepeat
    8,R,J
   40
 
-AnalogMode,Ignore
 #lvl_04
    1,R,J,G
    1,R,K,G
@@ -403,54 +404,55 @@ EndRepeat
    1,R,J
    1,R,K,G
    7,R,J
-   2,R
-  10,R,D,X
+  12,R,D,X
   40
 
 #lvl_10a
-   8,R,D
+   5,R,D
    1,R,J
-  17,PE,F,90
-   1,PE,F,80.8367
-   3,PE,F,90
-   1,PE,F,82.1080
-   1,PE,F,81.4817
-   1,PE,F,80.8549
-   1,PE,F,80.2277
-   1,PE,F,79.5999
-   1,PE,F,78.97147
-   1,PE,F,79.51575
-  10,PE,F,90
-   1,R
-   6,R,J
-   1,J,PE,F,90
-   1,PE,F,69.4419
+  19,PE,F,90
+   1,PE,F,82.0236
+   1,PE,F,90
+   1,PE,F,82.0291
+   1,PE,F,81.4162
+   1,PE,F,80.8028
+   1,PE,F,80.1889
+   1,PE,F,79.5745
+   1,PE,F,78.9596
+   1,PE,F,78.3441
+   1,PE,F,77.7142
+   1,PE,F,77.0822
+   1,PE,F,76.4479
+   1,PE,F,75.8112
+   1,PE,F,75.1719
+   1,PE,F,74.5298
+   1,PE,F,73.885
+   1,PE,F,73.2371
+   1,PE,F,72.5861
+   1,PE,F,71.9318
+   1,PE,F,71.274
+   1,PE,F,70.6126
+   1,PE,F,69.9474
+   1,PE,F,69.2781
+   1,PE,F,68.6048
+   1,PE,F,67.927
+   1,PE,F,67.2447
   40
 
 #lvl_11
-   1,PE,F,68.7635
-   1,PE,F,68.1039
-   1,PE,F,67.4400
-   1,ML,PE,F,66.7717
-   1,ML,PE,F,66.0986
-   1,ML,PE,F,65.4207
-   1,ML,PE,F,64.7378
-   1,ML,PE,F,64.0494
-   1,ML,PE,F,63.3556
-   1,ML,PE,F,62.6559
+   1,PE,F,66.5374
+   1,PE,F,65.8456
+   5,PE,F,270
+   1,PE,F,291.3815
    1,L
-   2,R,J,G
-   1,R
-   9,R,U,Z
-  15,R
-   2,L
    1
-   1,L
+   9,R,U,Z
+  15
+   4,L
   14,L,U,Z
    1,J,G
-   5,R
-   3
-   2,L,D,J
+   7,R
+   2,J
   14,R,U,X
   15
    1,R,J
@@ -481,7 +483,7 @@ EndRepeat
    5,U,X
 #---------------
 #[b-03] Spinner Cycle
-   1
+   2
 #---------------
    1,R,J
    1,R,K
@@ -534,80 +536,75 @@ EndRepeat
    5,D
   15,R,D,X
   18,R,C
-   4,Z
-   1,R,J
+  10,L,D,X
+   2,R,J
+   7,R,K,G
+   5,R,D,X
+   4,R,J,G
    1,R
-   1,R,J
+   5,R,J
    3,R
-   5,R,K
-  11,R,D,X
+   1,R,J
+   1,J,PE,F,90
+   1,PE,F,62.9236
+   1,PE,F,61.7608
   43
 
 #lvl_14a
-   3,R,D,X
-   1,R,J
-   2
-  11,L,Z
-   1,R,J
-   1
-   2,R
-   1,R,J
-   3,R
-   8,R,D,K
-   5,R
-   3,R,K
-   1,R
-   1,R,K
-   1,R
-   2,K
-   1,R,K
-   3,K
-  15,R,Z
-  10,L
-  29,R
-  11,R,U,X
+   1,PE,F,90
+   1,PE,F,61.7081
+   1,PE,F,60.5232
+   1,PE,F,59.3193
+   1,PE,F,58.095
+   1,PE,F,56.8486
+   1,PE,F,55.5783
+   1,PE,F,54.2823
+   1,PE,F,52.9581
+   1,PE,F,51.6034
+   1,PE,F,50.2154
+   1,PE,F,90
+   1,PE,F,50.2154
+  16,PE,F,90
+  18,R,D,X
+   4,R,D
+  13,R,U,C
    2,R,J,G
-   5,R
+   2,R
   40
 
 #lvl_15
-  14,R,D,X
-   1,R,J
-   1,J,PE,F,90
-   1,PE,F,67.2381
-  37,PE,F,90
-   1,PE,F,88.5832
-   1,PE,F,87.9
+  10,PE,F,90
+   1,PE,F,79.0025
+   1,PE,F,77.9246
+  28,PE,F,90
    1,R
-   4,R,Z
-   1,R,J
-   5,R
+   3,R,D,J
+   1,R
   40
 
 #lvl_16a
-   1,R
-   1,R,D,J
-   1,J,PE,F,90
-   1,PE,F,57.6593
-   1,PE,F,56.0517
-   9,PE,F,90
-   1,PE,F,68.3235
-   1,PE,F,66.8528
-   3,PE,F,90
-   1,PE,F,69.7919
-   3,PE,F,90
-   1,PE,F,72.6873
-   4,PE,F,90
-Repeat, 3
-   1,PE,F,76.9627
+   2,R
+   6,PE,F,90
+   1,PE,F,78.38
+Repeat, 5
+   1,PE,F,77.2732
    1,PE,F,90
 EndRepeat
-  41,PE,F,78.463
-   8,PE,F,90
-   8,PE,F,180
-  13,PE,F,90
+Repeat, 6
+   1,PE,F,77.3308
+   1,PE,F,90
+EndRepeat
+  27,PE,F,78.4469
+   7,PE,F,90
+   1,PE,F,85.4863
+   1,PE,F,84.3249
+   1,PE,F,83.1625
+   1,PE,F,81.9987
+  12,PE,F,90
    1,R
-   9,R,J
+   3,J
+   5,R,J
+   1,J
    5,R,U,Z
   40
 
@@ -659,9 +656,6 @@ EndRepeat
    1
    5,R,K,G
    7,R
-
-#1:14.511(4383)
-
    4,R,Z
    1,R,J
    7,R
@@ -1962,4 +1956,4 @@ EndRepeat
    1,D,J
   18
 AnalogMode,Ignore
-ChapterTime: 4:08.965(14645)
+ChapterTime: 4:07.588(14564)
