@@ -1,4 +1,4 @@
-RecordCount: 4323
+RecordCount: 4443
 
 console load 1
    1
@@ -13,43 +13,45 @@ console ch_toggle_elytra
 #lvl_1
   14,R,Z
    1,L,J
-   7,L,P
+   7,L
    1,L,J
   21,J,PE,F,90
-Repeat, 9
+Repeat, 6
    1,PE,F,55.3206
    1,PE,F,90.0000
 EndRepeat
    1,PE,F,55.3206
-   1,PE,F,53.5303
-   1,PE,F,51.6880
-   1,PE,F,49.7872
-   1,PE,F,47.8200
-   1,PE,F,45.7773
-   1,PE,F,43.6474
-   1,PE,F,41.4163
-   6,PE,F,90
-   5,R
-   1,R,J,G
+   1,PE,F,53.5569
+   1,PE,F,51.7428
+   1,PE,F,49.8721
+   1,PE,F,47.9373
+   1,PE,F,45.9297
+   1,PE,F,43.8386
+   1,PE,F,41.6504
+   1,PE,F,43.0380
+  13,PE,F,90
+   3,R
+   3,R,J,G
    1,K
   40
 
 #lvl_2
    1,PE,F,90
-   1,ML,PE,F,55.2708
-   1,ML,PE,F,53.4499
-   1,ML,PE,F,51.5751
-   1,ML,PE,F,49.6394
-   1,ML,PE,F,47.6346
-   1,PE,F,45.5507
-   1,PE,F,43.3755
-   1,PE,F,41.0936
-   1,PE,F,38.6852
-   1,PE,F,36.1240
-   1,PE,F,33.3736
-  21,PE,F,90
-   4,PE,F,76.2
-  14,PE,F,90
+   1,PE,F,302.618
+   1,PE,F,304.2502
+   1,PE,F,305.9252
+   1,PE,F,307.6475
+   1,PE,F,309.423
+   1,PE,F,311.2579
+   1,PE,F,313.1602
+   1,PE,F,315.1393
+Repeat, 4
+   1,PE,F,314.95
+   1,PE,F,270
+EndRepeat
+  19,PE,F,270
+  11,PE,F,90
+   1,PE,F,88.5299
    1,R
   12,R,K
    1,J
@@ -558,4 +560,4 @@ EndRepeat
    1,D,J
   18
 
-ChapterTime: 0:46.563(2739)
+ChapterTime: 0:46.546(2738)
