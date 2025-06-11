@@ -1,4 +1,4 @@
-RecordCount: 4443
+RecordCount: 4740
 
 console load 1
    1
@@ -53,16 +53,20 @@ EndRepeat
   11,PE,F,90
    1,PE,F,88.5299
    1,R
-  12,R,K
-   1,J
+   6,R,K
+   1,K,PE,F,270
+Repeat, 9
+   1,PE,F,90
+   1,MR,PE,F,0
+EndRepeat
+   1,R
+   1,L
    1,K
-   9,L,K
-   2,K
-# any%-start
-  15,U,X
-   8,R,J
+   1,J,G
+   7,J
+   5,R,J
    1,R,K,G
-   2,R,J,G
+   1,R,J,G
    1,K
   40
 
@@ -118,22 +122,23 @@ EndRepeat
 # any%-end
 
 #lvl_3b
-   1,R,J,G
-  10,R
+   1,J,G
+   6
+   2,J
+   3
+   1,R
    4,L,Z
    1,L,J
-   7,L
+   6,L
    1,L,D,J
    1,J,PE,F,90
    1,PE,F,90
-Repeat, 16
+Repeat, 15
    1,ML,PE,F,0
    1,PE,F,270
 EndRepeat
-   6,PE,F,90
-   1,PE,F,33.7481
-   1,PE,F,30.7058
-   1,PE,F,27.3331
+   9,PE,F,270
+   1,PE,F,41.2011
    2,PE,F,90
    5,R
    1,R,J,G
@@ -143,16 +148,14 @@ EndRepeat
 #lvl_5
    1,PE,F,90
    1,ML,PE,F,90
-   1,ML,PE,F,52.0472
+   1,ML,PE,F,55.195
    2,ML,PE,F,90
-   3,PE,F,90
-   3,PE,F,180
-  10
-   1,R
-   1,R,J
-  10,R,X
-   8,L,J
-   2,J
+   9,PE,F,270
+   4
+  15,D,X
+   4,L,J
+   4,J
+   1,L,J
    5,R,Z
    1,R,J
    1
@@ -268,6 +271,7 @@ EndRepeat
    1,PE,F,86.1278
    1,PE,F,84.6109
    1,PE,F,83.0927
+
    1,PE,F,81.5728
    1,PE,F,80.0509
    1,PE,F,78.5266
@@ -509,28 +513,42 @@ EndRepeat
   40
 
 #lvl_12
-# any%-start
-  11,R,J
-  10,R,Z
-   2,R,J
-   4,J
-   2
-  14,R,U,X
-   1,J,G
-  24,R,D
-   9,R
-   1,R,J,G
-  32,R,K,G
-   7,R,J
-  10,R,X
-# any%-end
-  12,R,J
-   8,R,U,Z
+  11,L
+  10,R,D,X
+   1,L,J
+   1,L
+   2,PE,F,90
+  14,PE,F,270
+   1,PE,F,90
+  25,PE,F,270
+   9,ML,PE,F,180
+   9,PE,F,270
+   1,PE,F,0
+   1,PE,F,87.2779
+   1,PE,F,85.8325
+   1,PE,F,84.3862
+   1,PE,F,82.9387
+   1,PE,F,81.4896
+   1,PE,F,80.0386
+   1,PE,F,78.5855
+   1,PE,F,77.1298
+   1,PE,F,75.629
+   1,PE,F,74.1149
+   1,PE,F,72.5855
+   1,PE,F,71.0391
+   1,PE,F,69.4738
+   1,PE,F,67.8873
+   5,PE,F,90
+   1,PE,F,78.48
+   3,R
+   6,R,J
+   6,J
+   9,R,U,Z
   40
 
 #lvl_12a
    7,R,U,Z
-   9
+   8
   12,L,J,G
   22,L,U,G
    1,L
@@ -560,4 +578,4 @@ EndRepeat
    1,D,J
   18
 
-ChapterTime: 0:46.546(2738)
+ChapterTime: 0:46.206(2718)
