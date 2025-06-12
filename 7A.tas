@@ -1,4 +1,4 @@
-RecordCount: 14694
+RecordCount: 14708
 
 console load 7
    1
@@ -2646,50 +2646,31 @@ EndRepeat
    1,R,J
    4,R
    1,R,J
-   1,PE,F,270
-Repeat, 8
-   1,PE,F,0
-   1,PE,F,270
+   1,J,PE,F,270
+Repeat, 7
+   1,PE,F,90
+   1,MR,PE,F,0
 EndRepeat
-   1,PE,F,348
-   1,PE,F,270
-  35,MR,PE,F,270
+  38,PE,F,90
    1,L
-   8,L,J
+   5,L,J
   15,L,D,X
-  15,L,D,C
+   7,PE,F,270
+   6,L
    1,L,J
    1,J,PE,F,90
-Repeat, 50
+   5,PE,F,90
+Repeat,56
+   1,PE,F,17.8969
    1,PE,F,90
-   1,PE,F,0
 EndRepeat
-  35,PE,F,90
-  14,PE,F,118
-   8,PE,F,90
-   4,PE,F,0.0000
-   2,PE,F,87.0640
-   1,PE,F,85.5684
-   1,PE,F,84.0718
-   1,PE,F,82.5738
-   1,PE,F,81.0740
-   1,PE,F,79.5722
-   1,PE,F,78.0679
-   1,PE,F,76.5229
-   1,PE,F,74.9645
-   1,PE,F,73.3910
-   1,PE,F,71.8004
-   1,PE,F,70.1904
-   1,PE,F,68.5590
-   1,PE,F,66.9035
-   1,PE,F,50
-   1,PE,F,64.22
-   6,PE,F,0
-   4,PE,F,90
+  36,PE,F,90
+  26,PE,F,180
+   5,PE,F,0
+   3,R
+   2,R,D
+   2,R
   15,R,D,X
-   5,R,D
-   1,R
-   1,R,D
    4,L,Z
    1,L,J
    5,L
@@ -3213,54 +3194,58 @@ EndRepeat
    1,R
    7,R,J
    1,R
-
   12,R,U,X
    1,R,J,G
    2,R
-  10,R,D,X
 #CP-01
+  14,R,D,X
    1,L,J
-   2,PE,F,90
-Repeat, 13
-   2,PE,F,0
-   2,PE,F,90
-EndRepeat
-   4,R
-  12,R,J,G
-  10,R,Z
+   7,L
    1,L,J
-Repeat, 12
-   3,PE,F,90
-   2,PE,F,0
+   1,J,PE,F,90
+Repeat, 31
+   1,PE,F,90
+   1,PE,F,0
 EndRepeat
-  15,PE,F,90
-  13,R,Z
+   4,PE,F,90
+   6,R
+  14,R,Z
+   1,L,J
+  15,L,D,X
+   1,L,D
+   1,L,J
+   1,J,PE,F,90
+  17,PE,F,90
+   1,PE,F,44.3811
+   1,PE,F,42.7905
+   1,PE,F,41.1399
+   1,PE,F,39.4213
+   1,PE,F,37.625
+   1,PE,F,35.7387
+   4,PE,F,90
+   1,PE,F,41.2136
+   1,PE,F,39.4477
+   1,PE,F,37.5997
+   1,PE,F,35.6562
+  26,PE,F,90
+   5,R,D,X
+   1,R,J,G
+  11,R
+   3,R,J
+   2,R,K,G
+   2,K,PE,F,270
+  26,J,PE,F,90
    1,R,J
-   7,R
-   2,R,J
-  10,R,Z
-   1,R,J
-   2,PE,F,270
-  36,MR,PE,F,0
-   1,R
-  12,R,J
-  13,R,Z
-   1,L,J
-   2,PE,F,90
-  46,ML,PE,F,0
-   3,R
-   4,L,J
-  10,R,Z
-   2,L,J
-   2,PE,F,90
-Repeat, 10
-   2,PE,F,0
-   3,PE,F,90
+   6,L,J
+   1,J,PE,F,90
+  13,PE,F,90
+Repeat, 26
+   1,PE,F,35.6868
+   1,PE,F,90
 EndRepeat
-   1,R
-  13,R,Z
+  10,PE,F,270
    1,S
    1,D,J
   18
 
-FileTime: 5:43.247(20191)
+FileTime: 5:41.921(20113)
