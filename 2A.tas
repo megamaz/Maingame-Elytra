@@ -1,4 +1,4 @@
-RecordCount: 9363
+RecordCount: 9507
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -34,40 +34,38 @@ console ch_toggle_elytra
    5,R,D,X
    1,R,J,G
    6,R
-   2,R,J
+   1,R,J
    6,R
    1,R,J
    1,J,PE,F,90
-   1,PE,F,64.8849
+   1,PE,F,65.1036
+   1,PE,F,64.1149
   40
 
 #lvl_1 (0)
-   1,PE,F,90.0000
-Repeat, 2
-   1,PE,F,64.8849
-   1,PE,F,90.0000
-EndRepeat
-   1,PE,F,66.
-   4,PE,F,90.0000
+   1,PE,F,63.0919
+   1,PE,F,63.6
+   7,PE,F,90
    7,R
    1,PE,F,270
-   3,PE,F,180
-   2,MR,PE,F,180
-   5,MR,PE,F,156.51
+   5,MR,PE,F,180
+   4,PE,F,90
   40
-#227 (-1f) faster manip
 
 #lvl_d0 (0)
+
 #-202, 414
    6,L
-   2,PE,F,212
-  30,MR,PE,F,180
+   1,PE,F,270
+   1,PE,F,212.3
+   2,PE,F,180
+  27,MR,PE,F,180
   14,D
   12,R,D
    1,R,D,PE
    6,PE,F,180
   41,PE,F,123.5
-   8,PE,F,104
+   8,PE,F,113
    1
    1,R,J
   15,R,X
@@ -606,46 +604,40 @@ EndRepeat
   16,R,D,X
    1,R,J
 # any%-stop
-  38,PE,F,90
-   1,PE,F,0.0000
-   1,PE,F,87.8257
+   1,J,PE,F,90
+Repeat, 6
+   1,PE,F,62.1447
+   1,PE,F,90
+EndRepeat
+  12,PE,F,90
+Repeat, 8
+   1,PE,F,76.5281
+   1,PE,F,90
+EndRepeat
   40
 
 #lvl_11
-   1,PE,F,86.7335
-   1,PE,F,85.6407
-   1,PE,F,84.5472
-   1,PE,F,83.4528
-   1,PE,F,82.3574
-   1,PE,F,81.2606
-   1,PE,F,80.1624
-   1,PE,F,79.0625
-   1,PE,F,77.9608
-   1,PE,F,76.8297
-   1,PE,F,75.6912
-   3,R
-   2,R,J
-  14,R,U,X
-   3,R,J,G
-   3,R,K,G
-   5,R,J,G
-  15,R
+Repeat, 6
+   1,PE,F,76.5841
+   1,PE,F,90
+EndRepeat
+   4,PE,F,90
+  15,R,D,X
+   1,R,D
    1,R,J
-  10,PE,F,90
+   8,R,K,G
+   1,K,PE,F,90
+  23,PE,F,90
   40
 
 #lvl_12b
-  15,PE,F,90
-   1,PE,F,89.0825
-   1,PE,F,88.1649
-   1,PE,F,87.2471
-   1,PE,F,86.3290
-   1,PE,F,85.4104
-   1,PE,F,85
+   9,PE,F,90
+   1,PE,F,89.1663
+   1,PE,F,88.5784
    1,R
-   1,R,J
-   2,R
-  21,R,X
+   4,R,J
+   4,R
+  23,R,X
    4,R,K
    1,R,J
   13,R,Z
@@ -655,33 +647,35 @@ EndRepeat
   23,R,Z
    4,R,J
    1,R,K
-  12,PE,F,90
-   2,PE,F,76.6
+   1,K,PE,F,90
+   5,PE,F,90
+Repeat, 4
+   1,PE,F,64.6666
+   1,PE,F,90
+EndRepeat
   40
 
 #lvl_12
-  22,PE,F,76.6
-   2,R
-   2,R,J
-   3,R
-  16,PE,F,90
-   3,PE,F,78
+   8,PE,F,90
+Repeat, 7
+   1,PE,F,76.7439
+   1,PE,F,90
+EndRepeat
+   8,PE,F,90
+   1,PE,F,88.4207
+   1,PE,F,86.9755
    1,R
-  14,R,D,X
-   6,R,J
-  22,PE,F,90
+   8,R,J
+  11,R,D,X
+   1,R,J,G
+  11,R
+   1,R,J
+   1,J,PE,F,90
+  21,PE,F,90
   40
 
 #lvl_13
-# +9f this screen
-   7,PE,F,180
-  16,PE,F,90
-   1,PE,F,88.5301
-   1,PE,F,87.0599
-   1,PE,F,85.5891
-   1,PE,F,84.1172
-   1,PE,F,82.6440
-   1,PE,F,81.1691
+  21,PE,F,90
    1,S
    1,D,J
   18
@@ -801,6 +795,5 @@ EndRepeat
    1,S
    1,D,J
   18
-#5051 (-7f)
 
-FileTime: 1:25.816(5048)
+FileTime: 1:25.493(5029)
