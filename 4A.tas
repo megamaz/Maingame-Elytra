@@ -1,4 +1,4 @@
-RecordCount: 4161
+RecordCount: 4535
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -330,8 +330,7 @@ EndRepeat
   11,R
   10,L,D,X
    1,L,J
-   4,PE,F,90
-   1,PE,F,90
+   5,PE,F,90
    1,PE,F,17.4577
    1,PE,F,90
 Repeat, 40
@@ -343,8 +342,9 @@ EndRepeat
   40
 #lvl_b-00
 # probably something here
-  12,L
-  12,L,Z
+   9,L,J
+   3,L
+  10,L,Z
    1,L,J
    2,PE,F,90
 Repeat, 19
@@ -378,6 +378,8 @@ EndRepeat
    1,PE,F,62.0693
    1,PE,F,60.7463
   40
+
+#lvl_b-02
    1,PE,F,59.3999
    1,PE,F,58.0280
    1,PE,F,56.6282
@@ -581,8 +583,8 @@ EndRepeat
    1,ML,PE,F,15.1622
    1,ML,PE,F,6.2738
 Repeat, 7
-   1,PE,F,270
    1,ML,PE,F,0
+   1,PE,F,270
 EndRepeat
    1,L
   40
@@ -627,6 +629,8 @@ EndRepeat
    1,L
   12,L,J,G
   12,L,K,G
+
+
    2,R,J
    7,R
    6,R,J
@@ -641,6 +645,7 @@ EndRepeat
    7,R
    1,R,D,J
    1,J,PE,F,90
+
    8,PE,F,90
 Repeat, 27
    1,PE,F,71.0768
@@ -685,6 +690,7 @@ EndRepeat
   40
 
 #lvl_c-06
+
    1,L
    6,R
    1,R,J,G
@@ -693,23 +699,44 @@ EndRepeat
    8,R,V
    1,L,J
    4,L
-   4,L,D,J
+   4,L,J
    1,J,PE,F,90
-   2,PE,F,90
-Repeat, 18
-   1,PE,F,0
-   1,PE,F,90
-EndRepeat
-Repeat, 5
+Repeat, 33
    1,ML,PE,F,0
    1,PE,F,270
 EndRepeat
-Repeat, 8
-   1,PE,F,0
-   1,PE,F,90
-EndRepeat
-   4,ML,PE,F,0
-  14,L,J
+   1,ML,PE,F,0
+   2,L
+   1,L,K
+  12,L,J
+
+
+
+#    1,L
+#    6,R
+#    1,R,J,G
+#    6,R,K,G
+#   15,R,Z
+#    8,R,V
+#    1,L,J
+#    4,L
+#    4,L,D,J
+#    1,J,PE,F,90
+#    2,PE,F,90
+#Repeat, 18
+#    1,PE,F,0
+#    1,PE,F,90
+#EndRepeat
+#Repeat, 5
+#    1,ML,PE,F,0
+#    1,PE,F,270
+#EndRepeat
+#Repeat, 8
+#    1,PE,F,0
+#    1,PE,F,90
+#EndRepeat
+#    4,ML,PE,F,0
+#   14,L,J
 # any%-start
   28,L,X
   18,L,U,Z
@@ -1054,6 +1081,7 @@ EndRepeat
   24,R,U,X
   15,R,D,C
    2,R,J
+
   16,R,D,X
 # any%-end
    1,R,D,J
@@ -1064,6 +1092,7 @@ EndRepeat
    1,PE,F,66.8822
    1,PE,F,66.1766
    1,PE,F,65.4656
+
    8,PE,F,90
    1,PE,F,70.3772
    1,PE,F,69.6844
@@ -1074,7 +1103,6 @@ EndRepeat
    1,PE,F,66.1504
    1,PE,F,65.4280
    1,PE,F,64.6998
-   0,PE,F,63.9655
    1,PE,F,90
    1,R
    4,R,J,G
@@ -1098,7 +1126,7 @@ EndRepeat
    1,PE,F,63.4383
    1,PE,F,65.5
   11,PE,F,90
-   5,R
+   5,R,D
    2,R,J
    1,J,PE,F,90
    1,PE,F,71.0209
@@ -1206,87 +1234,84 @@ EndRepeat
    7,R
    1,R,J
    1,J,PE,F,90
+Repeat, 4
    1,PE,F,57.5063
    1,PE,F,90
-   1,PE,F,57.5063
-   1,PE,F,90
-   1,PE,F,57.5063
-   1,PE,F,90
-   1,PE,F,57.5063
-   5,PE,F,90
+EndRepeat
+   4,PE,F,90
   40
 
 #lvl_d-09
-   9,PE,F,90
+   8,PE,F,90
   15,R,D,X
    7,R,J
   15,R,D,X
    1,R,J
    1,J,PE,F,90
-   1,PE,F,65.4329
-   1,PE,F,64.4701
-  39,PE,F,90
-  13,PE,F,180
-  13,PE,F,0
-   1,PE,F,89.1189
-   1,PE,F,88.2378
-   1,PE,F,87.3564
-   1,PE,F,86.4748
-   1,PE,F,85.5927
-   1,PE,F,84.7102
-   1,PE,F,83.8272
-   1,PE,F,82.9434
-   1,PE,F,82.0589
-   1,PE,F,81.1735
-   1,PE,F,80.2872
-   1,PE,F,79.3998
-   1,PE,F,78.5112
-   1,PE,F,77.6214
-   1,PE,F,76.7073
-   1,PE,F,75.7883
-   1,PE,F,74.8640
-   1,PE,F,73.9338
-   1,PE,F,72.9974
-   1,PE,F,72.0543
-   1,PE,F,71.1040
-   1,PE,F,70.1461
-   1,PE,F,69.1800
-   1,PE,F,68.2051
-   1,PE,F,67.2209
-   1,PE,F,66.2267
-   1,PE,F,65.2218
-   1,PE,F,64.2057
-   1,PE,F,63.1774
-   1,PE,F,62.1363
-   1,PE,F,61.0814
-   1,PE,F,60.0117
-   1,PE,F,58.9264
-   1,PE,F,57.8243
-   1,PE,F,56.7041
-   1,PE,F,55.5646
-   1,PE,F,54.4044
-   1,PE,F,53.2218
-   1,PE,F,52.0151
-   1,PE,F,50.7824
-   1,PE,F,49.5214
-   1,PE,F,48.2298
-   1,PE,F,46.9046
-   1,PE,F,45.5427
-   1,PE,F,44.1405
-   1,PE,F,42.6937
-   1,ML,PE,F,41.1972
-   1,ML,PE,F,39.6452
-   1,ML,PE,F,38.0305
-   8,ML,PE,F,90
-  14,PE,F,90
+Repeat, 3
+   1,PE,F,65.4293
+   1,PE,F,90
+EndRepeat
+  30,PE,F,90
+  14,PE,F,180
+  15,PE,F,0
+   1,PE,F,271.7614
+   1,PE,F,272.6454
+   1,PE,F,273.5297
+   1,PE,F,274.4144
+   1,PE,F,275.2995
+   1,PE,F,276.1852
+   1,PE,F,277.0716
+   1,PE,F,277.9588
+   1,PE,F,278.8469
+   1,PE,F,279.7359
+   1,PE,F,280.626
+   1,PE,F,281.5173
+   1,PE,F,282.4098
+   1,PE,F,283.3267
+   1,PE,F,284.2487
+   1,PE,F,285.1761
+   1,PE,F,286.1093
+   1,PE,F,287.0488
+   1,PE,F,287.9951
+   1,PE,F,288.9486
+   1,PE,F,289.9098
+   1,PE,F,290.8794
+   1,PE,F,291.8577
+   1,PE,F,292.8455
+   1,PE,F,293.8434
+   1,PE,F,294.852
+   1,PE,F,295.8721
+   1,PE,F,296.9044
+   1,PE,F,297.9498
+   1,PE,F,299.009
+   1,PE,F,300.0832
+   1,PE,F,301.1732
+   1,PE,F,302.2803
+   1,PE,F,303.4056
+   1,PE,F,304.5505
+   1,PE,F,305.7164
+   1,PE,F,306.9049
+   1,PE,F,308.1179
+   1,PE,F,309.3574
+   1,PE,F,310.6255
+   1,PE,F,311.9248
+   1,PE,F,313.2581
+   1,PE,F,314.6288
+   1,PE,F,316.0406
+   1,PE,F,317.4979
+   1,PE,F,318.3
+  23,PE,F,270
   40
 
 #lvl_d-10
   15,R,D,X
-   1,R,D
+# -1f frame FileTime but ChapterTime could not care less about my antics
+#    1,R,D
    1,R,J
    5,R
    1,S
    1,D,J
   18
-ChapterTime: 1:29.097(5241)
+
+ChapterTime: 1:28.978(5234)
