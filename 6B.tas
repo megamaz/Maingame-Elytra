@@ -1,4 +1,4 @@
-RecordCount: 3871
+RecordCount: 4823
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -214,7 +214,6 @@ AnalogMode, Ignore
   10,L
    5,R
   15,R,Z
-
    6,R,J
    9,R
   16,L
@@ -286,7 +285,7 @@ EndRepeat
    9,PE,F,78.463
    1,PE,F,77.6
    9,PE,F,0
-   1,L,K,G
+   1,L,G
    1,L,J,G
    1,K,G
    1,R,K
@@ -520,8 +519,7 @@ EndRepeat
    1,R,K
    1,R,J
    2,R,K
-   1,PE,F,90
-   1,PE,F,90
+   2,PE,F,90
    1,PE,F,67.7
    5,R
    1,J
@@ -652,8 +650,7 @@ EndStunPause
    1,R,K
    1,R,J
    7,R
-   1
-  40
+  41
 
 #lvl_b-04
   33,D
@@ -678,11 +675,9 @@ EndStunPause
    1,D
   15,L,X
   10,D
-  23,L,D
-   3,L,D
+  26,L,D
    2,R,D
-   1,R
-   2,R
+   3,R
   13,L,Z
    1,R,J
    1,R,K
@@ -700,7 +695,6 @@ EndStunPause
    1,R,J
    1,R,K
    5,R
-
    2,R,J
    2,R
   40
@@ -937,8 +931,7 @@ EndStunPause
    4,R,J
   21,R,D
    1,MD,PE,F,90
-  22,PE,F,90
-   3,PE,F,90
+  25,PE,F,90
    1,PE,F,180
    7,R
    1,PE,F,90
@@ -1281,14 +1274,12 @@ EndStunPause
   37,L
    2
   16,D,X
-   2,R
-   2,R
+   4,R
    1
   27,R
   12,R,X
    2,R,J,G
-  15,R
-  44,R
+  59,R
   19,R,U,X
    1,R,K,G
    1,L
@@ -1354,8 +1345,7 @@ AnalogMode,Precise
    6,R,J
   14,R,U,X
   33,R,D
-  35,D
-   5,D
+  40,D
   47,PE,F,270
    1,L
    6,L,J
@@ -1523,17 +1513,24 @@ AnalogMode,Ignore
   15,R,D,X
    1,R,J
    1,J,PE,F,90
-Repeat, 20
-   1,PE,F,67.4528
+  12,PE,F,90
+Repeat, 34
+   1,PE,F,76.8031
    1,PE,F,90
 EndRepeat
-  40,PE,F,90
-   1,PE,F,89.2240
-   1,PE,F,88.4479
-   1,PE,F,87.6716
-   1,PE,F,86.8952
-   1,PE,F,86.1185
-   5,R,Z
+   1,PE,F,76.8031
+   2,R
+   5,R,X
 #6BG
- 134,R
-ChapterTime: 2:55.984(10352)
+ 120,R
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+Repeat, 5
+   1,J
+   1,K
+EndRepeat
+   1
+
+ChapterTime: 2:55.950(10350)
