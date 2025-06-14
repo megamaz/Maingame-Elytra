@@ -1,4 +1,4 @@
-RecordCount: 9552
+RecordCount: 10171
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -15,134 +15,134 @@ console ch_toggle_elytra
    1,R,J
    7,R
    1,R,J
-   6,PE,F,90
+   6,J,PE,F,90
   40
 
 #lvl_0 (0)
-   5,PE,F,90
-   1,R
+   8,PE,F,90
   15,R,D,X
    1,R,J
-   1
-   4,R
-   3,R,K
-   1,R,J,G
-   4,R
-   2
-   5,R
+   6,R
+   1,R,K,G
+  10,R
    4,R,J
    5,R,D,X
    1,R,J,G
-   6,R
-   1,R,J
-   6,R
+  12,R
    1,R,J
    1,J,PE,F,90
-   1,PE,F,65.1036
-   1,PE,F,64.1149
+   2,PE,F,90
   40
 
 #lvl_1 (0)
-   1,PE,F,63.0919
-   1,PE,F,63.6
-   7,PE,F,90
-   7,R
+Repeat, 4
+   1,PE,F,68.1222
+   1,PE,F,90
+EndRepeat
+   5,R
+   1,R,J
+   1,R
    1,PE,F,270
-   5,MR,PE,F,180
-   4,PE,F,90
+   1,MR,PE,F,180
+   8,PE,F,90
   40
 
 #lvl_d0 (0)
-
-#-202, 414
-   6,L
-   1,PE,F,270
-   1,PE,F,212.3
-   2,PE,F,180
-  27,MR,PE,F,180
-  14,D
-  12,R,D
+   7,L
+   1,MD,PE,F,270
+  24,MR,PE,F,180
+   1,D
+   3
+  13,D
+   1,R,D
+   1,R
+   3,R,D
+   3,R
+   3,R,D
    1,R,D,PE
-   6,PE,F,180
-  41,PE,F,123.5
-   8,PE,F,113
-   1
+   1,MD,PE,F,90
+  47,PE,F,127.1
+   8,PE,F,90
+   1,R
    1,R,J
   15,R,X
-   8,R,Z
+  10,R,Z
    1,L,J
-   5
    2
-   1,L,J
+   2,L
+   1,PE,F,270
+   1,PE,F,277.1
+   3,L
   14,L,Z
    1,R,J
    6,R,D,X
    1,R,J,G
-  12,R
+  11,R
    1,R,J
-   3,PE,F,90
+   1,J,PE,F,90
+   1,PE,F,62.4901
+   2,PE,F,90
   40
 
-#450 (-2f) better speed
-
 #lvl_d7
-  12,PE,F,75
-   1,R
-  12,R,D,X
+   8,PE,F,90
+   2,R
+  14,R,D,X
    7,R,J,G
    5,R
-   2,R,J
-   7,R
-   1,R,D,J
-   3,PE,F,90
+   3,R,J
+   2,R
+   6,R,J
+   5,R,D,X
   40
 
 #lvl_d8
-   5,PE,F,90
-  13,R
-   1,J,G,PE,F,90
-   1,PE,F,63.3244
-   1,PE,F,62.1939
-   1,PE,F,61.0473
-   1,PE,F,59.8832
-   1,PE,F,58.7005
-   1,PE,F,57.4975
-   1,PE,F,56.2729
-   1,PE,F,55.0247
-   1,PE,F,53.7512
-   1,PE,F,52.4502
-   1,PE,F,51.1192
-   4,PE,F,49.7556
-   1,PE,F,48.3562
-   1,PE,F,46.9176
-   1,PE,F,45.4357
-   1,PE,F,43.9057
-   1,ML,PE,F,42.3220
-   1,ML,PE,F,40.6780
-   1,ML,PE,F,38.9657
-   1,ML,PE,F,37.1751
-   1,ML,PE,F,35.2940
-   1,ML,PE,F,33.3063
-   1,ML,PE,F,31.1914
-   1,ML,PE,F,28.9205
-   1,ML,PE,F,26.4531
-   1,ML,PE,F,23.7270
-   3,PE,F,90
-   2,R
-   5,R,J,G
-   1,R,PE
+   8,R,D,X
+   1,L
+   1,L,J,G
+   1,J,PE,F,90
+   1,PE,F,63.3298
+   1,PE,F,90
+   1,PE,F,63.3298
+   1,PE,F,62.1998
+   1,PE,F,61.0536
+   1,PE,F,59.89
+   1,PE,F,58.7077
+   1,PE,F,57.5053
+   1,PE,F,56.2812
+   1,PE,F,55.0336
+   1,PE,F,53.7607
+   1,PE,F,52.4603
+   1,PE,F,51.13
+   1,PE,F,49.7671
+   1,PE,F,48.3685
+   1,PE,F,46.9307
+   1,PE,F,45.4496
+   3
+   1,PE,F,43.9206
+   1,PE,F,42.3379
+   1,PE,F,40.6951
+   1,PE,F,38.9841
+   1,PE,F,37.195
+   1,PE,F,35.3155
+   1,PE,F,33.3298
+   1,PE,F,31.2171
+   1,ML,PE,F,28.9491
+   1,PE,F,26.4851
+   1,PE,F,23.7517
+   6,PE,F,270
+   1,R
+   6,R,J,G
+   1,J,PE,F,90
   40
-#633 (-1f) glide start
 
 #lvl_d3
-   8,PE,F,90
-Repeat, 5
+  14,PE,F,90
+   1,PE,F,78.0816
    1,PE,F,90
-   1,PE,F,73
-EndRepeat
-   2,PE,F,90
-   2,R
-   1,R,J
+   2,PE,F,78.0816
+   2,R,J
+   2,J
   15,L,U,Z
    1,S
    1,D,J
@@ -159,7 +159,6 @@ EndRepeat
    1,L,K,G
    8,L
   40
-#803 (-3f) glide continued
 
 #lvl_d2
   16,L,D
@@ -720,69 +719,64 @@ EndRepeat
    1,R,J
    1,J,PE,F,90
    1,PE,F,70.0223
-   1,PE,F,90.0000
-   1,PE,F,70.0223
+   1,PE,F,69.4104
+   1,PE,F,68.795
   40
 
 #lvl_end_3
-   1,PE,F,90.0000
-   1,PE,F,70.0223
+   1,PE,F,68.1932
   15,R,D,X
-  10,R,U,C
-   3,R,J,G
-  11,R,K,G
+   1,R,J
+   5,R,K,G
+   1,K,PE,F,90
+   1,PE,F,288.215
+   1,PE,F,288.6962
+   1,PE,F,289.1793
+   1,PE,F,289.6644
+   1,PE,F,290.1516
+   1,PE,F,290.6409
+   1,PE,F,291.1325
+   1,PE,F,291.6263
+   1,PE,F,292.1225
+   1,PE,F,292.6212
+   1,PE,F,293.1224
+   1,PE,F,293.6261
+   1,PE,F,294.1326
+   1,PE,F,294.6419
+   1,PE,F,295.1541
+   1,PE,F,295.6692
   40
 
 #lvl_end_4
-   7,R
-  15,R,D,X
-   6,R,D
-   1,R,J
-   1,J,PE,F,90
-   1,ML,PE,F,72.3811
-   1,ML,PE,F,90.0000
-   1,ML,PE,F,72.3811
-   1,ML,PE,F,90.0000
-   1,ML,PE,F,72.3811
-   1,ML,PE,F,90.0000
-   1,ML,PE,F,72.3811
+   1,PE,F,296.1696
+   1,PE,F,296.6909
+   1,PE,F,297.2154
+   1,PE,F,297.7434
+  11,PE,F,270
+   1,R
+   4,R,J,G
+   2,R
+  11,PE,F,90
   40
 
 #lvl_end_3b
-Repeat, 5
-   1,PE,F,72.3811
-   1,PE,F,90.0000
-EndRepeat
-   6,PE,F,90.0000
-   1,R
   15,R,D,X
-   2,R,D
-   2,R,D,J
+   4,R,D
+   2,R,J
+   1,J,PE,F,90
+   1,PE,F,72.8233
+Repeat, 7
+   1,PE,F,72.4182
+   1,PE,F,90
+EndRepeat
   40
 
 #lvl_end_5
-   1,R,J
-   1,J,PE,F,90
-   1,ML,PE,F,73.4058
-   1,ML,PE,F,73.0432
-   1,ML,PE,F,72.6797
-   1,ML,PE,F,72.3151
-   1,ML,PE,F,71.9495
-   1,ML,PE,F,71.5828
-   1,ML,PE,F,71.2149
-   1,ML,PE,F,70.8460
-   1,ML,PE,F,70.4759
-   1,ML,PE,F,70.1046
-   1,ML,PE,F,69.7320
-   1,ML,PE,F,69.3582
-   1,ML,PE,F,68.9831
-   1,ML,PE,F,68.6067
-   1,ML,PE,F,68.2290
-   1,ML,PE,F,67.8498
-   1,PE,F,67.4692
-   1,ML,PE,F,67.0871
-   2,ML,PE,F,66.7036
-  13,ML,PE,F,90
+Repeat, 4
+   1,PE,F,72.4233
+   1,PE,F,90
+EndRepeat
+  16,PE,F,270
   40
 
 #lvl_end_6
@@ -790,5 +784,4 @@ EndRepeat
    1,S
    1,D,J
   18
-
-FileTime: 1:25.374(5022)
+FileTime: 1:25.085(5005)
