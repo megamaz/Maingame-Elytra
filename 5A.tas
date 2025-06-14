@@ -1,4 +1,4 @@
-RecordCount: 2052
+RecordCount: 2310
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -143,35 +143,38 @@ EndRepeat
    6,L
    1,L,J
    1,J,PE,F,90
-   5,PE,F,90
-Repeat, 10
-   1,PE,F,21.7146
-   1,PE,F,90.0000
+Repeat, 9
+   1,PE,F,0
+   1,PE,F,90
 EndRepeat
-   5,PE,F,90
-   2,R
-   1,R,J,G
-   7,R
-   9,L,Z
-   1,R,J
-   5,R
-   2,R,J
-   1,R
-   1,R,J
-  23,J,PE,F,90
-   3,R
+   9,ML,PE,F,90
+   1,PE,F,90
+  15,ML,PE,F,90
+   4,R
+   3,R,J
+  21,PE,F,90
+   2,PE,F,110
+   3,PE,F,90
   40
 
 #lvl_a-12
-   3,R
-   7,R,J
-  11,R,X
-   1,R,J
-   1,J,PE,F,90
-  15,PE,F,90
-   9,PE,F,67.69
-   5,R
-  33,D
+   4,R
+   3,R,D,J
+   3,J,PE,F,90
+   1,PE,F,60.7571
+   1,PE,F,59.2018
+   1,PE,F,57.6121
+   1,PE,F,55.9843
+   1,PE,F,54.3144
+   1,ML,PE,F,52.5977
+   1,ML,PE,F,50.8287
+  17,PE,F,90
+   1,PE,F,76.0445
+   1,PE,F,74.5951
+   1,PE,F,73.1311
+   2,PE,F,90
+   1,PE,F,180
+  37,L,D
   54,L,X
    7,L,U,Z
    1,R
@@ -207,7 +210,6 @@ EndRepeat
 #  40
 
    5,L,J
-
   21,L,D
    1,MRD,PE,F,90
    2,M,PE,F,180
@@ -220,7 +222,9 @@ EndRepeat
    9,D
   38,R,D
   20,R,D,X
-   1
+# key cycle
+   3
+#
   20,R,D,C
   14,R,D,X
    1,R,J
@@ -1389,7 +1393,7 @@ EndRepeat
    1,PE,F,72.3685
   40
 
-#lvl_e-01 (0)
+#lvl_e-01
    1,PE,F,70.9812
    1,PE,F,69.6466
    1,PE,F,68.2957
@@ -1467,7 +1471,7 @@ EndRepeat
    6,PE,F,90
   40
 
-#lvl_e-01 (1)
+#lvl_e-03
    1,PE,F,70.4199
    1,PE,F,69.4202
    1,PE,F,68.4114
@@ -1762,4 +1766,4 @@ EndRepeat
    1,D,J
   18
 
-FileTime: 2:49.609(9977)
+FileTime: 2:49.456(9968)
