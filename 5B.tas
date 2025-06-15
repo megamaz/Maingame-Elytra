@@ -1,4 +1,4 @@
-RecordCount: 3279
+RecordCount: 3338
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -107,64 +107,82 @@ EndRepeat
 
 #lvl_b-00
 # TODO: Make this not the slowest thing in recorded history maybe?
+
    2,R
-   1,L,J,G
-   8,L
+   1,R,J
+   8,R
   10,L,Z
-   9,R,J
-   6,R,D,X
+   4,R,J
+   1,R
+   1,R,J
+   2,R
+   5,R,D,X
    1,R,J,G
    9,R
    1,R,J
+
+#    1,L,J,G
+#    8,L
+#   10,L,Z
+#    9,R,J
+#    6,R,D,X
+#    1,R,J,G
+#    9,R
+#    1,R,J
    1,J,PE,F,90
-   1,PE,F,58.1261
-   1,PE,F,56.5595
-   1,PE,F,54.9547
-   1,PE,F,53.3075
-   1,PE,F,51.6134
-   1,PE,F,49.8668
-   1,PE,F,50.178
+   1,PE,F,58.3921
+   1,PE,F,56.8488
+   1,PE,F,55.2688
+   1,PE,F,53.6481
+   1,PE,F,51.9825
+   1,PE,F,50.2667
+   1,PE,F,50.459
   11,ML,PE,F,90
    1,L
    4,R
    2,R,J
    1,J,PE,F,90
   40
-#lvl_b-01
 
+#lvl_b-01
   14,PE,F,90
-Repeat, 47
-   1,PE,F,78.1986
+Repeat, 36
+   1,PE,F,78.2
    1,PE,F,90
 EndRepeat
+   1,PE,F,78.2
+Repeat, 9
+   1,PE,F,77.0527
    1,PE,F,90
+EndRepeat
+   3,PE,F,90
    6,R
    1,R,D,J
    1,J,PE,F,90
-   1,PE,F,61.4657
   40
 #lvl_b-07
 
 # i tihnk im celeste chapter 3 the way this room is a huge mess
-   1,PE,F,60.2320
-   1,PE,F,58.9285
-   1,PE,F,57.6007
-   1,PE,F,56.2464
-   1,ML,PE,F,54.8634
-   1,PE,F,53.4490
-   1,PE,F,52.0002
-   1,PE,F,50.5136
-   1,PE,F,48.9855
-   1,PE,F,47.4112
-   1,PE,F,45.7857
-   1,PE,F,44.1028
-   1,PE,F,42.3551
-   1,PE,F,40.5337
-   1,PE,F,38.6276
-   1,PE,F,36.6231
+   1,PE,F,61.6575
+   1,PE,F,60.3911
+   1,PE,F,59.1030
+   1,PE,F,57.7912
+   1,ML,PE,F,56.4537
+   1,ML,PE,F,55.0885
+   1,PE,F,53.6928
+   1,PE,F,52.2639
+   1,PE,F,50.7987
+   1,PE,F,49.2934
+   1,PE,F,47.7438
+   1,PE,F,46.1450
+   1,PE,F,44.4913
+   1,PE,F,42.7758
+   1,PE,F,40.9903
+   1,PE,F,39.1246
+   1,PE,F,37.1660
 Repeat, 4
    1,PE,F,90
-   1,PE,F,36.6231
+   1,PE,F,37.1660
 EndRepeat
   14,PE,F,90
    7,R,J
@@ -995,4 +1013,4 @@ EndRepeat
   13,R,U,Z
  135,R,D
 
-ChapterTime: 1:32.310(5430)
+ChapterTime: 1:32.259(5427)
