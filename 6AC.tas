@@ -14,84 +14,11 @@ console ch_toggle_elytra
   34
 
 #lvl_start
-# Spinner cycle
+# [02] Spinner Cycle
    0
-#
-   4,D,X
-   1,R,J
-   3
-   1,J
-   3
-   3,R,J
-   7,J
-   1,R,J
-  10,U,Z
-  27,L,U
-AnalogMode,Precise
-  77,F,341.34
-   1,F,341.37
-  86,F,346.408
-  30,F,350.447
-   1,F,355.757
-  12,F,11.923
-   1,F,15.515
-  11,F,76
-  12,F,100.221
-   1,F,95.923
-  11,F,36
-  57,F,354.573
-  14,U,X
-  27,L,U
-  69,F,339.043
-   1,F,340.709
-  25,F,359.47
-   1,F,2.564
-  14,F,29.151
-  14,R,U,X
-  27,R,U
-  64,F,358.877
-  15,F,0.003
-  16,F,8.116
-   1,F,2.782
-   5,F,0.108
-   1,F,356.678
-  64,F,349.01
-   1,F,351.015
-   8,F,359.801
-   1,F,5.098
-  23,F,17.523
-   1,F,16.799
- 156,F,0
-  14,U,X
-   1,S
-   1,D,J
-  18
+#-------------------
 
-#lvl_00
-  19
-  15,U,X
-  15,U,C
-  15,U,X
-   1,R
-  15,R,Z
-   1,R,D
-   1,R
-Repeat, 4
-   1,R,J
-   1,R,K
-EndRepeat
-   1,R,J
-   1,R,K
-   1,K,PE,F,270
-Repeat, 13
-   1,PE,F,270
-   1,PE,F,0
-EndRepeat
-Repeat, 3
-   1,PE,F,90
-   1,MR,PE,F,0
-EndRepeat
-  43
+Read, 6A, lvl_start, Exit
 
 #lvl_01
    5,R,J
@@ -106,6 +33,7 @@ EndRepeat
    8,R,J
   14,R,U,X
   27,L,U
+AnalogMode, Precise
   46,F,356.0789
    2,F,0
   21,F,4.5
@@ -304,4 +232,4 @@ EndRepeat
    1,S
    1,U,O
    1,J
-FileTime: 0:48.365(2845)
+FileTime: 0:46.886(2758)
