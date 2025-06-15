@@ -1,4 +1,4 @@
-RecordCount: 2310
+RecordCount: 2638
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -165,16 +165,18 @@ EndRepeat
    1,PE,F,59.2018
    1,PE,F,57.6121
    1,PE,F,55.9843
-   1,PE,F,54.3144
-   1,ML,PE,F,52.5977
-   1,ML,PE,F,50.8287
-  17,PE,F,90
-   1,PE,F,76.0445
-   1,PE,F,74.5951
-   1,PE,F,73.1311
-   2,PE,F,90
-   1,PE,F,180
-  37,L,D
+  11,PE,F,270
+   1,PE,F,71.3172
+   1,PE,F,69.8544
+   1,PE,F,68.3720
+   1,PE,F,66.8680
+   1,PE,F,65.3403
+   1,PE,F,63.7864
+   1,PE,F,62.2035
+   1,PE,F,60.3
+   3,PE,F,90
+   8,R,D
+  32,L,D
   54,L,X
    7,L,U,Z
    1,R
@@ -200,67 +202,46 @@ EndRepeat
    1,L,J
    3
    7,L,D
-
-#  optimizable but im too lazy to deal with key cycles and freeze frames
-#   9,L,J
-#   4,L
-#  15,L,D,X
-#   1,L,D
-#   3,MRD,PE,F,180
-#  40
-
    5,L,J
   21,L,D
-   1,MRD,PE,F,90
+   1,MD,PE,F,90
    2,M,PE,F,180
   40
 #lvl_a-01 (1)
 
-   2,MR,PE,F,180
-  14,L,D
-   5,R,D
-   9,D
-  38,R,D
-  20,R,D,X
-# key cycle
-   3
-#
-  20,R,D,C
-  14,R,D,X
-   1,R,J
+   2,R,D
+   1,D
+   3,R,D
+   1,L,D
+   3,D
+   1,D
+   5,D
+  15,L,D
+   1,MD,PE,F,90
+  13,PE,F,170.1
+  22,ML,PE,F,170.1
+  20,PE,F,120
+  13,PE,F,90
   62
 
 #lvl_a-13
+   2,R
+   1,R,J
   14,R,D,X
    1,R,J
    7,R
-   4,R,D,J
-   2,K,G
-   1,L,K
-   1,R,K
-   9,J,G
-   2,L,J
-   1,R
-   1,K,G
-   5,L
-  12,L,K
-   1,L,J,G
-   2,R,J
-   9,J
-   1,L,K,G
-   3,R,J
-   8,J
-   1,L,K,G
-   3,R,J
-  18,J
-   1,L,G
-   5,L,J,G
-   6,L
-   3
-   1,R,D,K
-   6,R
-   1,R,K
-   8,R
+   1,R,D,J
+  15,L,D,X
+  14,R
+  57
+   1,J
+   5
+   4,J
+   7
+   1,J
+   6
+   1,J
+   8
    4,Z
    1,R,J
    6,R
@@ -310,6 +291,7 @@ EndRepeat
    1,L
    4,J,G
    7,R
+
   13,R,Z
    2,R,J
   24,R,D,X
@@ -1766,4 +1748,4 @@ EndRepeat
    1,D,J
   18
 
-FileTime: 2:49.456(9968)
+FileTime: 2:49.235(9955)
