@@ -14,9 +14,6 @@ console ch_toggle_elytra
   34
 
 #lvl_start
-# Spinner cycle
-   0
-#
    4,D,X
    1,R,J
    3
@@ -284,7 +281,6 @@ EndRepeat
    7,L,K
    1,L,K,G
    7,L,U,G
-#6HC0
    1,J,G
   10,L,X
    2,L,J
