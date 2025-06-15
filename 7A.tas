@@ -1,4 +1,4 @@
-RecordCount: 16567
+RecordCount: 17118
 
 console load 7
    1
@@ -1404,7 +1404,7 @@ EndRepeat
    1,ML,PE,F,64.6055
    1,ML,PE,F,63.6994
    1,ML,PE,F,62.7834
-   1,ML,PE,F,61.8571
+   1,ML,PE,F,61.86
    1,ML,PE,F,60.9198
    1,ML,PE,F,59.9708
    1,ML,PE,F,59.0094
@@ -1757,18 +1757,13 @@ EndRepeat
    1,J,PE,F,90
    6,PE,F,90
   40
-#lvl_e-13
 
-   7,PE,F,90
-Repeat, 8
-   1,PE,F,76.6402
+#lvl_e-13
+  12,PE,F,90
+Repeat, 19
+   1,PE,F,83.4082
    1,PE,F,90
 EndRepeat
-  23,PE,F,90
-   2,PE,F,87.2753
-   1,PE,F,85.9049
-   1,PE,F,84.5614
-   1,R
   38
   15,U,X
   10,R,U,C
@@ -1903,8 +1898,7 @@ EndRepeat
 
 #lvl_f-02
    9,PE,F,270
-   1,R
-   5,R
+   6,R
    2
    1,L
    3
@@ -2051,7 +2045,7 @@ EndRepeat
    7,R,D
   14,R,C
 # spinner cycle
-   2
+   0
 #
   21,R,X
   15,U,C
@@ -2931,8 +2925,7 @@ Repeat, 5
    1,PE,F,10.6
 EndRepeat
    7,PE,F,90
-  15,R,D
-   4,D
+  19,R
 
 ##### need 5 million speed here please, currently loses like 12-13f due to all the stunning
 #    5,L,Z
@@ -3090,87 +3083,81 @@ EndRepeat
 #####
 
 #CP-04
-  10,R,J
-  14,U,X
-
-  12,L,J
-   1,J,PE,F,90
-  16,PE,F,90
-Repeat, 10
-   1,PE,F,64.8054
+   4,R,Z
+   1,R,J
+   7,R
+   1,R,J
+   1,R
+  15,R,D,X
+   3,R,D
+  10,R,Z
+   7,L,J
+   8,L,D,X
+   3,L,J,G
+   1,J,PE,F,270
+   1,PE,F,301.7
+   7,PE,F,90
+   1,R
+   4,L
+   2,L,D,J
+   1,J,PE,F,270
+   1,PE,F,62.7957
+   1,PE,F,61.6225
+   1,PE,F,60.4314
+   1,PE,F,59.2211
+   1,PE,F,57.9901
+   1,PE,F,56.7367
+   1,PE,F,55.4591
+   1,PE,F,54.1553
+  10,PE,F,270
+   7,L,J
+   2,J,PE,F,90
+Repeat, 2
+   1,PE,F,0
    1,PE,F,90
 EndRepeat
-  13,PE,F,90
-   9,R,D
-   1
-  15,U,X
-   1,L
-  15,R,Z
-  14,L
-   3,L,D
-   1,D
-   1
-  27,PE,F,90
-   7,PE,F,100
+  35,PE,F,90
+Repeat, 3
+   1,PE,F,75.2584
    1,PE,F,90
-   6,PE,F,0
-   1,PE,F,86.821
-   1,PE,F,85.1871
-   1,PE,F,83.5519
-   1,PE,F,81.9148
-   1,PE,F,80.2755
-   1,PE,F,78.6335
-   1,PE,F,76.9882
-   1,PE,F,75.2898
-   1,PE,F,73.5738
-   1,PE,F,71.8375
-   1,PE,F,70.0783
-   1,PE,F,68.2932
-   1,PE,F,66.4789
-   1,PE,F,64.6318
-   2,PE,F,90
-   1,PE,F,66.4869
-   1,PE,F,64.6242
-   1,PE,F,62.724
-   1,PE,F,60.7815
-   1,PE,F,58.7914
-   1,PE,F,56.7474
-   1,PE,F,54.6424
-   1,PE,F,52.4675
-   1,PE,F,50.2127
-   5,PE,F,90
-   1,PE,F,58.9231
-   1,PE,F,56.8183
-   1,PE,F,54.6487
-   1,PE,F,52.405
-   1,PE,F,50.0758
-   3,PE,F,90
-   1,PE,F,54.6947
-   1,PE,F,52.4064
-   1,PE,F,50.0291
-   7,PE,F,90
-   1,PE,F,63.4518
-   1,PE,F,61.3349
-   1,PE,F,59.1624
-   1,PE,F,56.9265
-   1,PE,F,54.6177
-   1,PE,F,52.2247
-   1,PE,F,49.7336
-   1,PE,F,47.1271
-   1,PE,F,44.3832
-   8,PE,F,90
-   1,PE,F,61.8029
-   1,PE,F,59.516
-   1,PE,F,57.1595
-   1,PE,F,54.7226
-   1,PE,F,52.192
-   4,PE,F,90
-  14,R,Z
-   1,R,J
-   6,R
-   6,R,J
+EndRepeat
+Repeat, 5
+   1,PE,F,90
+   1,PE,F,76.5232
+EndRepeat
+  20,PE,F,90
+   1,PE,F,88.7561
+   1,PE,F,87.512
+   1,PE,F,86.2673
+   1,PE,F,85.0218
+   1,PE,F,83.7752
+   1,PE,F,82.5273
+   1,PE,F,81.2777
+   1,PE,F,80.0263
+   1,PE,F,78.7726
+   1,PE,F,77.5166
+   1,PE,F,76.2239
+   1,PE,F,74.921
+   1,PE,F,73.6065
+   1,PE,F,72.2794
+   1,PE,F,70.9381
+   1,PE,F,69.5814
+   1,PE,F,68.2077
+   1,PE,F,66.8154
+   1,PE,F,65.4026
+   1,PE,F,63.9675
+   1,PE,F,62.508
+   1,PE,F,61.0216
+   1,PE,F,59.5059
+Repeat, 20
+   1,PE,F,57.9577
+   1,PE,F,90
+EndRepeat
+  10,PE,F,90
+   1,PE,F,75
    1,R
-   6,R,X
+   7,R,J
+  10,R,X
    1
   15,R
   12,R,J,G
@@ -3196,7 +3183,7 @@ EndRepeat
   51,F,1.399
    2,F,0
   18,F,314
-   1,F,311.91
+   1,F,312
 AnalogMode,Ignore
    8,L
   16,L,U,X
@@ -3296,4 +3283,4 @@ EndRepeat
    1,D,J
   18
 
-FileTime: 5:40.544(20032)
+FileTime: 5:40.085(20005)
