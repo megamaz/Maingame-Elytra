@@ -1,4 +1,4 @@
-RecordCount: 4823
+RecordCount: 5067
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -11,7 +11,7 @@ console ch_toggle_elytra
 
 #lvl_a-00
 # Spinner cycle
-   8
+   1
 #
   14,L,Z
    1,R,J
@@ -29,97 +29,82 @@ console ch_toggle_elytra
   10,L
    5,R,J
    5,L,J
-   4,J
+  11,J
    5,R,X
    1,R,J,G
-  10,J
-   9
-   9,R
-   1
-  10,R,Z
-  20,L,J
-   3,K
-  11,R,D,X
-   6,R,J
-   1,R
-  10,U,X
-   4,J
-  14,R,J
-   1,K
-   6
-   2,L,K
-   1,R
-   1,K
-   2,L
-   4,R
-   2,L
-   2,R
-   2,L
-   1,R,J
-   5,R
-   2,R,J
-   4,L
-   3,R
-  15,R,X
-   8,L,C
-   1,L
-  12,L,J,G
-   1,L,K,G
-   5,L
-   1,L,K
-   1
-   1,K
-   5,R,X
-   1,L,J
-   8,L
-   1
-   1,R
-   4,L,D
-   1,L
-   4,Z
-   1,R,J
-   2,R
-   3,R,J
-   2,R
-   5,R,K
-   1,K
-   2,R,K
+   5,J
+   5,L,J
+   2,L,K,G
    1,L,J,G
-  13,R,J
-   1,J,PE,F,270
-   1,PE,F,270
-   1,PE,F,0
-Repeat, 2
-   1,PE,F,90
-   1,MR,PE,F,0
-EndRepeat
+   6,L,J
+   7,R,J
    1,R
+   3
+   1,J
+   5
+   1,J
+   3
+   5,R
+  10,L,X
+   4,L,J
+   1,R,K,G
+   2,L,K
+   1,J,PE,F,90
+   1,PE,F,90
+Repeat, 3
+   1,ML,PE,F,0
+   1,PE,F,270
+EndRepeat
+# 23 frames is probably not optimal, but this is locked behind a cycle anyways
+  23,PE,F,270
+   1,PE,F,44.0563
+   1,PE,F,43.0348
+   1,PE,F,41.9892
+   1,PE,F,40.9173
+   1,PE,F,39.8170
+   1,PE,F,38.6857
+   1,PE,F,37.5205
+   1,PE,F,36.3181
+   1,PE,F,35.0744
+   1,PE,F,33.7848
+   1,PE,F,32.4436
+   1,PE,F,31.0441
+   1,PE,F,29.5777
+   1,PE,F,28.0338
+   1,PE,F,26.3987
+   1,PE,F,24.6539
+   1,PE,F,22.7741
+   1,PE,F,20.7223
+   1,PE,F,18.4409
+   1,PE,F,15.8306
+   1,PE,F,12.6897
+   1,PE,F,8.4447
+   1,L
   40
-
 #lvl_a-01
-   1,J
-   2,L,J
-   3,J
-   2,R,J
-   1,J
-   1,R,J
+
+   1,R
+   1
+   1,R
+   7,L,J
    1,J
   14,U,Z
   27,L,U
 AnalogMode,Precise
-  43,F,3.216
+  43,F,3.38
    1,F,357.919
   11,F,298
   10,F,264.41
    5,L,D,X
   27,R,U
+# On the last RU frame, the blue spinner must turn off
    1,F,5.541
 StunPause
-  17,F,5.538
+  17,F,5.5
    1,F,9.493
    1,F,45.776
 EndStunPause
-  29,F,45.776
+  29,F,45.785
    1,F,43.67
   14,F,10.5
    1,F,0
@@ -1533,4 +1518,4 @@ Repeat, 5
 EndRepeat
    1
 
-ChapterTime: 2:55.950(10350)
+ChapterTime: 2:53.910(10230)
