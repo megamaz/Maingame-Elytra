@@ -1,4 +1,4 @@
-RecordCount: 17492
+RecordCount: 17610
 
 console load 7
    1
@@ -446,16 +446,17 @@ EndRepeat
    1,PE,F,345.1273
    1,PE,F,350.2545
 Repeat, 7
-   1,ML,PE,F,0
+   1,ML,PE,F,5.91233
    1,PE,F,270
 EndRepeat
    8,PE,F,270
-  14,R,D,X
+  13,R,D,X
   40
 
 #lvl_b-07
+   1,R
    1,R,J
-  13,R,D,X
+  12,R,D,X
    1,L,J
    1,L
   12,L,D,X
@@ -473,6 +474,11 @@ EndRepeat
   15,R,D,X
   11,R,U,Z
    6,R,J,G
+
+#0:51.068(3004)
+
+#0:51.085(3005)
+
   40
 #lvl_b-08
   35,PE,F,90
@@ -784,7 +790,6 @@ EndRepeat
    4,R,K
    1,R,J
   15,R,D,C
-
   34,R,U,X
    1,R
    4,R,Z
@@ -1961,26 +1966,27 @@ Repeat, 11
    1,PE,F,90
 EndRepeat
    5,PE,F,90
-  14,R,U,Z
+  13,R,U,Z
+   1,L
    1,J,G
-  13,U,X
-   1,R,J
+  14,U,X
   40
 
 #lvl_f-07
+   2,L,J
+   9,R,J
+   2,J
    1
-   8,L
-   1,J
-  11,L,J
-   1,R,J
-   1,L,J
+   1,R
+   1
    1,K
-   5,R,K
+   6,R,K
   15,U,X
    5,R
   15,U,C
-   2,R
-   8,R,J
+   3,R
+
+   7,R,J
    1,R,K
    7,R
    4,Z
@@ -2007,7 +2013,7 @@ EndRepeat
    2,L,J
   15,D,X
 # wait key cycle
-  36
+  38
 #
   14,R,D,X
    1,L,J
@@ -2036,7 +2042,7 @@ EndRepeat
    7,R,D
   14,R,C
 # spinner cycle
-   2
+   0
 #
   21,R,X
   15,U,C
@@ -2529,7 +2535,6 @@ EndRepeat
    1,L
   15,U,X
    5,R,Z
-
 #CP-23
    8,R,J
    1,R
@@ -3280,4 +3285,4 @@ EndRepeat
    1,D,J
   18
 
-FileTime: 5:39.745(19985)
+FileTime: 5:39.626(19978)
