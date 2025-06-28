@@ -1,4 +1,4 @@
-RecordCount: 4740
+RecordCount: 4780
 
 console load 1
    1
@@ -271,7 +271,6 @@ EndRepeat
    1,PE,F,86.1278
    1,PE,F,84.6109
    1,PE,F,83.0927
-
    1,PE,F,81.5728
    1,PE,F,80.0509
    1,PE,F,78.5266
@@ -518,7 +517,7 @@ EndRepeat
    1,L,J
    1,L
    2,PE,F,90
-  14,PE,F,270
+  14,PE,F,90
    1,PE,F,90
   25,PE,F,270
    9,ML,PE,F,180
@@ -554,9 +553,9 @@ EndRepeat
    1,L
    1,J,G
    1,L,K,G
-  17,R,K,G
+  16,R,K,G
    1,K,PE,F,270
-   1,PE,F,270
+   1,PE,F,0
 Repeat, 23
    1,MR,PE,F,0
    1,PE,F,90
@@ -578,4 +577,4 @@ EndRepeat
    1,D,J
   18
 
-ChapterTime: 0:46.206(2718)
+ChapterTime: 0:46.189(2717)
