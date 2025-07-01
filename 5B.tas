@@ -1,4 +1,4 @@
-RecordCount: 3338
+RecordCount: 3354
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -55,8 +55,8 @@ console ch_toggle_elytra
    1,PE,F,65.6927
    1,PE,F,64.1209
   40
-#lvl_a-01
 
+#lvl_a-01
    1,PE,F,62.5066
    1,PE,F,60.8727
    7,PE,F,90
@@ -95,14 +95,15 @@ console ch_toggle_elytra
   27,J,PE,F,270
   16,PE,F,90
    7,PE,F,180
-  18,PE,F,90
+  17,PE,F,90
    1,R
-   6,R,J
+   7,R,J
    2,J,PE,F,270
-Repeat, 9
+Repeat, 8
    1,MR,PE,F,0
    1,PE,F,90
 EndRepeat
+   1,MR,PE,F,0
   40
 
 #lvl_b-00
@@ -160,6 +161,7 @@ EndRepeat
    1,R,D,J
    1,J,PE,F,90
   40
+
 #lvl_b-07
 
 # i tihnk im celeste chapter 3 the way this room is a huge mess
@@ -192,7 +194,7 @@ Repeat, 17
    1,PE,F,0
 EndRepeat
    1,R
-   1,R,J,G
+   1,J
   16,R,K,G
   12,L,J
   40
@@ -578,6 +580,7 @@ SaveAndQuitReenter
    6,PE,F,90
    1,PE,F,76
   40
+
 #lvl_c-02
 
   14,PE,F,90
@@ -709,6 +712,7 @@ Repeat, 5
 EndRepeat
    1,PE,F,345
    6,L
+
    1,K
   40
 
@@ -1013,4 +1017,4 @@ EndRepeat
   13,R,U,Z
  135,R,D
 
-ChapterTime: 1:32.259(5427)
+ChapterTime: 1:32.242(5426)
