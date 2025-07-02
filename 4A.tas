@@ -1,4 +1,4 @@
-RecordCount: 4535
+RecordCount: 4672
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -343,7 +343,7 @@ EndRepeat
 #lvl_b-00
 # probably something here
    9,L,J
-   3,L
+   2,L
   10,L,Z
    1,L,J
    2,PE,F,90
@@ -429,6 +429,7 @@ EndRepeat
   21,PE,F,90
   14,U,X
   40
+
 #lvl_b-08
   13,R,J
   14,R,X
@@ -457,52 +458,53 @@ EndRepeat
    1,R,K,G
    9,R
    1,R,J
-  17,J,PE,F,90
-   1,PE,F,80.1362
-   1,PE,F,79.2164
-   1,PE,F,78.2953
-   1,PE,F,77.3517
-   1,PE,F,76.4029
-   1,PE,F,75.4488
-   1,PE,F,74.4886
-   1,PE,F,73.5221
-   1,PE,F,72.5486
-   1,PE,F,71.5678
-   1,PE,F,70.5789
-   1,PE,F,69.5815
-   1,PE,F,68.5750
-   1,PE,F,67.5587
-   1,PE,F,66.5319
-   1,ML,PE,F,65.4939
-   1,ML,PE,F,64.4440
-   1,ML,PE,F,63.3812
-   1,ML,PE,F,62.3048
-   1,ML,PE,F,61.2138
-   1,ML,PE,F,60.1071
-   1,ML,PE,F,58.9836
-   1,ML,PE,F,57.8422
-   1,ML,PE,F,56.6814
-   1,ML,PE,F,55.4998
-   1,ML,PE,F,54.2959
-   1,ML,PE,F,53.0678
-   1,ML,PE,F,51.8136
-   1,ML,PE,F,50.5310
-   1,ML,PE,F,49.2176
-   1,ML,PE,F,47.8706
-   1,ML,PE,F,46.4867
-   1,ML,PE,F,45.0622
-   1,ML,PE,F,43.5929
-   1,ML,PE,F,42.0737
-   1,ML,PE,F,40.4987
-   1,ML,PE,F,38.8607
-   1,ML,PE,F,37.1511
-   1,ML,PE,F,35.3589
-   1,ML,PE,F,33.4707
-   1,ML,PE,F,29.3287
-   1,ML,PE,F,27.0178
-   1,ML,PE,F,24.4869
-   1,ML,PE,F,21.6584
-   1,ML,PE,F,18.3944
+  13,PE,F,90
+   1,PE,F,78.1945
+   1,PE,F,77.2666
+   1,PE,F,76.3339
+   1,PE,F,75.3958
+   1,PE,F,74.452
+   1,PE,F,73.5019
+   1,PE,F,72.5452
+   1,PE,F,71.5813
+   1,PE,F,70.6097
+   1,PE,F,69.6299
+   1,PE,F,68.6413
+   1,PE,F,67.6432
+   1,PE,F,66.6351
+   1,PE,F,65.6163
+   1,PE,F,64.586
+   1,PE,F,63.5435
+   1,PE,F,62.4879
+   1,PE,F,61.4183
+   1,PE,F,60.3338
+   1,PE,F,59.2333
+   1,PE,F,58.1157
+   1,PE,F,56.9798
+   1,ML,PE,F,55.8242
+   1,ML,PE,F,54.6474
+   1,ML,PE,F,53.4478
+   1,ML,PE,F,52.2236
+   1,ML,PE,F,50.9727
+   1,ML,PE,F,49.6929
+   1,ML,PE,F,48.3816
+   1,ML,PE,F,47.0359
+   1,ML,PE,F,45.6525
+   1,ML,PE,F,44.2276
+   1,ML,PE,F,42.7567
+   1,ML,PE,F,41.2346
+   1,ML,PE,F,39.6551
+   1,ML,PE,F,38.0105
+   1,ML,PE,F,36.2919
+   1,ML,PE,F,34.4875
+   1,ML,PE,F,32.5829
+   1,ML,PE,F,30.5588
+   1,ML,PE,F,28.3892
+   1,ML,PE,F,26.0371
+   1,ML,PE,F,23.4472
+   1,ML,PE,F,20.5286
+   1,ML,PE,F,17.1134
+   1,ML,PE,F,12.8091
   40
 
 #lvl_c-00
@@ -629,8 +631,6 @@ EndRepeat
    1,L
   12,L,J,G
   12,L,K,G
-
-
    2,R,J
    7,R
    6,R,J
@@ -645,7 +645,6 @@ EndRepeat
    7,R
    1,R,D,J
    1,J,PE,F,90
-
    8,PE,F,90
 Repeat, 27
    1,PE,F,71.0768
@@ -690,7 +689,6 @@ EndRepeat
   40
 
 #lvl_c-06
-
    1,L
    6,R
    1,R,J,G
@@ -784,11 +782,14 @@ EndRepeat
 
 #lvl_c-09
 # +8f from different entry. need to fix
-   8,L,K
-  12,L
+# ^Fixed (slightly) to +5f... I guess?
+   7,L,K
+   5,L
+   3,L,J
+   2,L
    1,L,G
-   2
-   1,L,G
+   1
+   2,L,G
    6,J,G
    1,K
   12,J
@@ -855,6 +856,7 @@ EndRepeat
    1,L
    1,K
   40
+
 #lvl_c-07
    1,R,J,G
    6,R
@@ -913,6 +915,7 @@ EndRepeat
    1,PE,F,56.4448
    1,PE,F,54.9216
   40
+
 #lvl_c-08
    1,PE,F,53.3604
    1,PE,F,51.7570
@@ -1081,7 +1084,6 @@ EndRepeat
   24,R,U,X
   15,R,D,C
    2,R,J
-
   16,R,D,X
 # any%-end
    1,R,D,J
@@ -1092,7 +1094,6 @@ EndRepeat
    1,PE,F,66.8822
    1,PE,F,66.1766
    1,PE,F,65.4656
-
    8,PE,F,90
    1,PE,F,70.3772
    1,PE,F,69.6844
@@ -1154,6 +1155,7 @@ EndRepeat
   15,R,D,X
    1,R,D
   40
+
 #lvl_d-07
    4,R,D
    1,PE,F,90
@@ -1314,4 +1316,4 @@ EndRepeat
    1,D,J
   18
 
-ChapterTime: 1:28.978(5234)
+ChapterTime: 1:28.859(5227)
