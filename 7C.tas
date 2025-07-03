@@ -1,4 +1,4 @@
-RecordCount: 759
+RecordCount: 790
 
 Set,CommunalHelper.DeployElytra,E
 
@@ -101,17 +101,17 @@ EndRepeat
   40
 #lvl_02
   11,J,G
-   6,L,Z
+   5,L,Z
    1,R,J
    4,R
    1,R,J
   25,J,PE,F,0
-  14,PE,F,90
+  13,PE,F,90
    5,R,D,X
   18,R,D
   15,R,X
-  15,R,U,C
-  27,R,J
+  13,R,U,C
+  29,R,J
   15,R,Z
    2,R
   14,R,Z
@@ -125,19 +125,24 @@ EndRepeat
 
 #lvl_03
   69
+
    8,R,J
   15,R,U,X
   10,R,Z
    2,R,J
    2,R
+   1,J
+  11,R,D,X
    1,R,J
-  14,R,D,X
-  13,R,J
+   7,R
+   5,R,J
+   2,R
   15,R,D,X
    2,R,D
-   1,R,J
-  16,PE,F,270
-  16,L,D,X
+   3,R,J
+  15,PE,F,270
+
+  18,L,D,X
    1,L,J
    3,L
    6,L,D,X
@@ -149,8 +154,10 @@ EndRepeat
    5,L
    1,L,D,J
   39,PE,F,90
- 370,PE,F,78.463
-  10,PE,F,90
+ 359,PE,F,78.463
+   3,PE,F,90
+   3,R
+   3
   15,D,X
   23,R,D
    6,R,Z
@@ -178,4 +185,4 @@ EndRepeat
   10,PE,F,90
   14,R,U,X
  135
-ChapterTime: 0:26.724(1572)
+ChapterTime: 0:26.520(1560)
