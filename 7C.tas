@@ -1,4 +1,4 @@
-RecordCount: 849
+RecordCount: 991
 
 Set,CommunalHelper.DeployElytra,E
 
@@ -34,13 +34,14 @@ console ch_toggle_elytra
   10,L,Z
    1,R,J
   19,J,PE,F,45
-Repeat, 59
+Repeat, 56
    1,PE,F,0
    1,PE,F,90
 EndRepeat
-  15,U,X
-  35,L,J
-   7,L,K,G
+   2,PE,F,90
+  14,U,X
+  31,L,J
+  11,L,K,G
   40
 
 #lvl_02
@@ -49,21 +50,31 @@ EndRepeat
    1,R,J
    4,R
    1,R,J
-  25,J,PE,F,0
-  13,PE,F,90
+  16,J,PE,F,0
+Repeat, 10
+   1,PE,F,90
+   1,PE,F,0
+EndRepeat
+   1,PE,F,90
    5,R,D,X
   18,R,D
   15,R,X
-  13,R,U,C
-  29,R,J
-  15,R,Z
-   2,R
-  14,R,Z
+  16,R,U,Z
+#0:08.347(491)
+
+#0:08.364(492)
+
+  19,PE,F,90
+   1,PE,F,73
+   3,PE,F,60
+  13,PE,F,72.2
+   7,R,D,X
    1,R,J
    4,R
    1,R,J
+   2,R
   15,R,D,X
-   9,R,D
+   7,PE,F,90
   71
   40
 
@@ -98,10 +109,9 @@ EndRepeat
    4,L
    1,L,D,J
    1,L,J
-  39,PE,F,90
- 345,PE,F,78.463
-   6,PE,F,90
-   4,R
+  39,J,PE,F,90
+ 342,PE,F,78.463
+   9,PE,F,90
   15,D,X
   23,R,D
    6,R,Z
@@ -129,4 +139,4 @@ EndRepeat
   10,PE,F,90
   14,R,U,X
  135
-ChapterTime: 0:26.333(1549)
+ChapterTime: 0:25.976(1528)
