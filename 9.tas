@@ -1,4 +1,4 @@
-RecordCount: 19411
+RecordCount: 19429
 
 console load 10
    1
@@ -716,9 +716,9 @@ Repeat,25
    1,D
 EndRepeat
    7,R,D,X
-   5,R,J
-   3,R
-  13,R,U,X
+   1,R,J
+   1,J,PE,F,90
+  15,J,ML,PE,F,45
   40
 
 #lvl_c-alt-01
@@ -726,7 +726,7 @@ EndRepeat
   40
 
 #lvl_end-golden
-   1,R
+
   15,D,X
   15,D,C
   62
@@ -736,7 +736,7 @@ EndRepeat
    1,S
    1,D,J
   18
-ChapterTime: 1:25.357(5021)
+ChapterTime: 1:25.306(5018)
 
 #end-cinematic
 Add 2
